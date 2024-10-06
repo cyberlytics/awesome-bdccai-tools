@@ -84,6 +84,8 @@ Hinweise:
   - [**OCI Cloud** Free Tier](https://www.oracle.com/cloud/free/): bis zu zwei kostenlose Oracle DB-Instanzen, je 20GB, verschieden Typen, bspw. Exadata oder NoSQL
   - **[dbfiddle](https://dbfiddle.uk/)**: Browser-basierter SQL-Datenbank-Playground (diverse Datenbanksysteme)
   - **[MongoDB Atlas](https://www.mongodb.com/pricing)**: Cloud-Variante des klassischen NoSQL-Systems (The „M“ in MEAN and MERN) – kostenlos für 512MB
+  - **[Couchbase Capella](https://www.couchbase.com/products/capella/)**
+  - **[neo4j AuraDB](https://neo4j.com/product/auradb/)**
   - [**CockroachDB** SQL-Playground](https://www.cockroachlabs.com/docs/tutorials/sql-playground.html): Cloud-Variante des NewSQL-Datenbanksystems (s. unten)
 - RDBMS Research Prototypes:
   - **[LeanStore](https://dbis1.GitHub.io/)**: high-performance OLTP storage engine optimized for many-core CPUs and NVMe SSDs (Prof. Viktor Leis)
@@ -189,7 +191,24 @@ Datenexploration und Visualisierung:
 
 - Archetype **Petabyte**-scale Frameworks (insb. analytische Workloads): [Apache **Hadoop**](https://hadoop.apache.org/) (Two-Phase MapReduce, batch mode, „active Archive“), inkl. dessen Erweiterung durch [Apache **Spark**](https://spark.apache.org/) (RDD, iterative algorithms, In-Memory)
   - Playground: Pre-Built VM [Oracle Big Data Lite Virtual Machine](https://www.oracle.com/downloads/developer-vm/community-downloads.html) (BDLite) and [Samples](https://github.com/oracle/big-data-lite)
+  - Hadoop on Windows:
+    - Docker? [HowTo: Big Data Europe](https://cjlise.github.io/hadoop-spark/Setup-Hadoop-Cluster/)
+    - Installation? [HowTo: Hadoop 3.x](https://github.com/ruslanmv/How-to-install-Hadoop-on-Windows)
+  - Spark on Windows:
+    - Docker? [HowTo: Spark as part of jupyter](https://towardsdatascience.com/apache-spark-on-windows-a-docker-approach-4dd05d8a7147): \[docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes --name pyspark jupyter/pyspark-notebook\]
+    - Installation? [HowTo: Spark on Hadoop 3.x](https://medium.com/@ansabiqbal/setting-up-apache-spark-pyspark-on-windows-11-machine-e16b7382624a) or [HowTo: Spark on Hadoop 2.x](https://www.knowledgehut.com/blog/big-data/how-to-install-apache-spark-on-windows)
 - **NoSQL:** DB-Engines Rankings [Key/Value-Stores](https://db-engines.com/de/ranking/key-value+store) | [Document-Stores](https://db-engines.com/de/ranking/document+store) | [Wide-Column-Stores](https://db-engines.com/de/ranking/wide+column+store)
+  - **MongoDB** \[choco install mongodb.install \] plus IDE/GUI: [Compass](https://www.mongodb.com/products/tools/compass) \[choco install mongodb-compass\] or [Studio 3T](https://studio3t.com/download/) \[choco install studio3t\]
+  - **Cassandra**: unter Windows per DataStax Desktop! (benötigt WSL2 und Docker Deskop)
+    1. Installer: https://downloads.datastax.com » Reiter "Tools" » Liste "DataStax Desktop" » Package "Windows" » Button "Download"! (ggf. Shortcut-URL: https://downloads.datastax.com/#desktop)
+    2. Installieren Sie DataStax Desktop.
+    3. Starten Sie DataStax Desktop und installieren Sie Cassandra.
+    4. Nachdem in DataStax Desktop alle vier Installationsschritte grün sind:
+      - Klicken Sie in DataStax Desktop oben bei den Symbolen auf das "Stacks" Symbol.
+      - Klicken Sie dann unten bei  "Apache Cassandra" auf den Pfeil nach unten "Show hidden layers", so dass Sie einen Bereich "CQL Shell" sehen, mit einem Button "Launch CQL Shell". Klicken Sie diesen!
+  - **Redis** \[choco install redis\]
+  - **Couchbase** Server: [Community Edition (CE)](https://developer.couchbase.com/tutorial-getting-started-with-couchbase-ce) \[docker run -itd --name couchbase-server -p 8091-8094:8091-8094 -p 11210:11210 couchbase:community\]
+  - **neo4j**: [Desktop](https://neo4j.com/deployment-center/?desktop-gdb) or [Graph Database Self-Managed » Community](https://neo4j.com/deployment-center/?gdb-selfmanaged)
 - Scalable **OLAP: [EXASOL](https://www.exasol.com/product-overview/)** (→ s.oben!): Closed-Source MPP-fähiges und In-Memory-basiertes ACID-konformes RDBMS (MPP-DBMS; OLAP workloads); für analytische Anwendungen wie BI/DWH, DSS und Data Science; sehr hohe SQL-Standard-Kompatibilität und hohe Oracle-SQL-Dialekt-Kompatibilität
   - Alternative: (€) **[Snowflake](https://www.snowflake.com/pricing/)** als Cloud-native DWaaS
 - Scalable **OLTP: [CockroachDB](https://www.cockroachlabs.com/product/)** \[via [Docker](https://www.cockroachlabs.com/docs/v22.1/install-cockroachdb-windows)\]: Open-Source NewSQL; **PostgreSQL**-compatible; built on a transactional and strongly-consistent key-value store
