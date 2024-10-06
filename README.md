@@ -23,29 +23,30 @@ Hinweise:
 
 <!-- toc -->
 
-- [Datenbanksysteme](#datenbanksysteme)
-- [Datenbankwerkzeuge](#datenbankwerkzeuge)
-- [Datenvisualisierung](#datenvisualisierung)
-- [Data Science](#data-science)
-- [Big Data](#big-data)
-- [Moderne Web-Anwendungsentwicklung](#moderne-web-anwendungsentwicklung)
-- [Mobile Apps](#mobile-apps)
-- [Semantic Web / Knowledge Representation](#semantic-web--knowledge-representation)
-- [Verteilte Systeme](#verteilte-systeme)
-- [Cloud-Computing](#cloud-computing)
-- [Operations Research (OR) / Optimization](#operations-research-or--optimization)
-- [ML / AI](#ml--ai)
-- [Low-Code / No-Code](#low-code--no-code)
-- [Edge / Fog / IoT](#edge--fog--iot)
-- [dApps](#dapps)
-- [Security](#security)
-- [Privacy](#privacy)
-- [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
-- [Footer](#footer)
-  - [Future Work](#future-work)
-  - [Contribute](#contribute)
-  - [Backers](#backers)
-  - [License](#license)
+- [Awesome Big Data und Cloud-Computing für KI](#awesome-big-data-und-cloud-computing-für-ki)
+  - [Datenbanksysteme](#datenbanksysteme)
+  - [Datenbankwerkzeuge](#datenbankwerkzeuge)
+  - [Datenvisualisierung](#datenvisualisierung)
+  - [Data Science](#data-science)
+  - [Big Data](#big-data)
+  - [Moderne Web-Anwendungsentwicklung](#moderne-web-anwendungsentwicklung)
+  - [Mobile Apps](#mobile-apps)
+  - [Semantic Web / Knowledge Representation](#semantic-web--knowledge-representation)
+  - [Verteilte Systeme](#verteilte-systeme)
+  - [Cloud-Computing](#cloud-computing)
+  - [Operations Research (OR) / Optimization](#operations-research-or--optimization)
+  - [ML / AI](#ml--ai)
+  - [Low-Code / No-Code](#low-code--no-code)
+  - [Edge / Fog / IoT](#edge--fog--iot)
+  - [dApps](#dapps)
+  - [Security](#security)
+  - [Privacy](#privacy)
+  - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
+  - [Footer](#footer)
+    - [Future Work](#future-work)
+    - [Contribute](#contribute)
+    - [Backers](#backers)
+    - [License](#license)
 
 <!-- tocstop -->
 
@@ -195,7 +196,16 @@ Datenexploration und Visualisierung:
     - Docker? [HowTo: Big Data Europe](https://cjlise.github.io/hadoop-spark/Setup-Hadoop-Cluster/)
     - Installation? [HowTo: Hadoop 3.x](https://github.com/ruslanmv/How-to-install-Hadoop-on-Windows)
   - Spark on Windows:
-    - Docker? [HowTo: Spark as part of jupyter](https://towardsdatascience.com/apache-spark-on-windows-a-docker-approach-4dd05d8a7147): \[docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes --name pyspark jupyter/pyspark-notebook\]
+    - Basic terminology: Scala = Spark-shell / Python = PySpark
+    - Docker? [Spark Shell](https://hub.docker.com/r/apache/spark/) \[`docker run -it apache/spark /opt/spark/bin/spark-shell`\]
+      - On Windows with a scala file and data in a local directory:
+        ```batchfile
+        @echo off
+        cd /d "%~dp0"
+        docker run -it -v %CD%:/app -v %CD%:/data -p 4040:4040 --name sparkshell apache/spark:scala bash -c "ls -al /data; /opt/spark/bin/spark-shell -i /app/%~n0.scala"
+        pause
+        ```
+      - [HowTo: Spark as part of jupyter](https://towardsdatascience.com/apache-spark-on-windows-a-docker-approach-4dd05d8a7147) \[docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes --name pyspark jupyter/pyspark-notebook\] or [HowTo: Spark Cluster](https://medium.com/@MarinAgli1/setting-up-a-spark-standalone-cluster-on-docker-in-layman-terms-8cbdc9fdd14b)
     - Installation? [HowTo: Spark on Hadoop 3.x](https://medium.com/@ansabiqbal/setting-up-apache-spark-pyspark-on-windows-11-machine-e16b7382624a) or [HowTo: Spark on Hadoop 2.x](https://www.knowledgehut.com/blog/big-data/how-to-install-apache-spark-on-windows)
 - **NoSQL:** DB-Engines Rankings [Key/Value-Stores](https://db-engines.com/de/ranking/key-value+store) | [Document-Stores](https://db-engines.com/de/ranking/document+store) | [Wide-Column-Stores](https://db-engines.com/de/ranking/wide+column+store)
   - **MongoDB** \[choco install mongodb.install \] plus IDE/GUI: [Compass](https://www.mongodb.com/products/tools/compass) \[choco install mongodb-compass\] or [Studio 3T](https://studio3t.com/download/) \[choco install studio3t\]
