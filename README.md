@@ -612,7 +612,15 @@ Persönlich:
 - Open-Source Intelligence (OSINT): [Awesome OSINT](https://github.com/jivoi/awesome-osint)
   - **[Have I been Pwned?](https://haveibeenpwned.com/)**: Check if your email or phone is in a data breach
   - **[Have I been Trained?](https://haveibeentrained.com/)**: Check if a picture is in an AI model
-- **[privacy.sexy](https://privacy.sexy/)**: (Personal) Windows Hardening
+- (Personal) Windows Hardening
+  - **[WPD](https://wpd.app/)**: Windows Privacy Dashboard ⭐ \[choco install wpd\], einfache Deaktivierung der Windows-Telemetrie, Verwendende Level "Standard"
+  - **[toptout](https://github.com/beatcracker/toptout)**: Anti-Telemetry für eine Unzahl an Applikationen und Diensten, jenseits von Windows-per-se
+    ```powershell
+    Invoke-WebRequest -Uri "https://raw.githubusercontent.com/beatcracker/toptout/master/examples/toptout_pwsh.ps1" -OutFile "toptout_pwsh.ps1"
+    .\toptout_pwsh.ps1 -Env -Exec -ShowLog
+    ```
+  - **[privacy.sexy](https://privacy.sexy/)** ⭐: per CMD-Script-Ausführung, Verwendende Level "Standard"
+    - Für Fortgeschrittene: **[W10Privacy](https://www.w10privacy.de/)** \[choco install w10privacy\]
 - **[PrivaZer](https://privazer.com/)** \[**choco install privazer.install**\]: Free PC cleaner & Privacy tool that cleans unwanted traces
 - **[eBlocker](https://eblocker.org/)**: (Personal) Web Privacy Protection
 - **[Tor Browser](https://www.torproject.org/download/)** \[**choco install tor-browser**\]: explore the internet with privacy
