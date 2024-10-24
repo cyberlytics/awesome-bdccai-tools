@@ -96,8 +96,8 @@ Hinweise:
 
 ## Datenbankwerkzeuge
 
-- **[DbVisualizer](https://www.dbvis.com/pricing/)** \[**choco install db-visualizer**\]: Advanced SQL Editor
-  - Alternativen: [**DBeaver** Community Edition](https://dbeaver.io/) \[**choco install dbeaver**\] mit [Open-Source Hintergrund](https://github.com/dbeaver/dbeaver), Open Source **[Beekeeper](https://www.beekeeperstudio.io/)** \[**choco install beekeeper-studio.portable**\]
+- **[Beekeeper](https://www.beekeeperstudio.io/)** \[**choco install beekeeper-studio.portable**\]: Advanced SQL Editor
+  - Alternativen: [**DBeaver** Community Edition](https://dbeaver.io/) \[**choco install dbeaver**\] mit [Open-Source Hintergrund](https://github.com/dbeaver/dbeaver), **[DbVisualizer](https://www.dbvis.com/pricing/)** \[**choco install db-visualizer**\], etc.
 - (€:) **[DataGrip](https://www.jetbrains.com/datagrip/)**, kostenlos über die [Free Educational Licenses](https://www.jetbrains.com/community/education/#students) für Studierende
 - **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattfrom SQL Editor, inkl. NoSQL-Unterstützung und starkem JSON-Viewer
 - **[DbSchema](https://dbschema.com/)** [Community Edition](https://dbschema.com/): SQL Editor, Schema Reverse Engineering and Visualization
@@ -308,8 +308,23 @@ Datenexploration und Visualisierung:
   - The Hoth [Google Rank Checker](https://www.thehoth.com/search-engine-rankings/)
   - RankWatch [Website Analyzer](https://www.rankwatch.com/tools/web-analyzer.html) + RankWatch [Backlink Checker](https://www.rankwatch.com/backlinks/)
   - Weiterführende Quellen: [Awesome Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization) | ahrefs [Free SEO Tools](https://ahrefs.com/blog/free-seo-tools/) | buffer [Free SEO Tools](https://buffer.com/library/free-seo-tools/)
-- **[KrakenD](https://www.krakend.io/)**: Open Source API Gateway (with [KrakenD Designer](https://designer.krakend.io))
-- **[Quarkus](https://quarkus.io/)** \[CLI: **choco install quarkus**\] Kubernetes-native Java Stack
+- Ausgewählte fortgeschrittene Bausteine
+  - **[KrakenD](https://www.krakend.io/)**: Open Source API Gateway (with [KrakenD Designer](https://designer.krakend.io))
+  - **[Quarkus](https://quarkus.io/)** \[CLI: **choco install quarkus**\] Kubernetes-native Java Stack
+- Web to Desktop frameworks:
+  - = Cross-Plattform, aber primär Windows/Linux/MacOS und nicht notwendigerweise Mobile/Android/iOS
+  - Electron: [Wikipedia](https://en.wikipedia.org/wiki/Electron_(software_framework)) | [github](https://github.com/electron/electron)
+    - Showcase: [electron.js Showcase](https://www.electronjs.org/apps)
+    - Build/Scaffold: [Electron Forge](https://www.electronforge.io/), [electron.js Fiddle](https://www.electronjs.org/fiddle)
+  - Wichtige Electron-Alternative:
+    - **[neutralinojs](https://neutralino.js.org/)** ⭐
+      - [Vergleich mit Electron](https://github.com/neutralinojs/evaluation)
+      - Schlanker, schneller **UND** Option auf Android/iOS-Deployment!
+  - Mit komplexeren Backends:
+    - Mit Node.js: [NodeGui](https://github.com/nodegui/nodegui) mit den Varianten [React NodeGUI](https://github.com/nodegui/react-nodegui), [Vue NodeGUI](https://github.com/nodegui/vue-nodegui), [Svelte NodeGUI](https://github.com/nodegui/svelte-nodegui)
+    - Mit Rust: [Tauri](https://tauri.app/)
+    - Mit Go: [Wail](https://github.com/wailsapp/wails)
+  - Weiterführende Referenz: [Web to Desktop Framework Comparison](https://github.com/Elanis/web-to-desktop-framework-comparison)
 - Weiterführende Quellen: [Awesome Webdesign](https://project-awesome.org/nicolesaidy/awesome-web-design) | [Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks/blob/master/TOTALLY-GIGANTIC-FILE.md) | [Awesome Microservices](https://github.com/mfornos/awesome-microservices) | [Awesome CRDT](https://github.com/alangibson/awesome-crdt)
 
 ## Mobile Apps
@@ -319,8 +334,11 @@ Datenexploration und Visualisierung:
 - Cross-Plattform
   - JS/TS: **[Ionic](https://ionicframework.com/)** | [React Native](https://reactnative.dev/)
   - Dart: [Flutter](https://flutter.dev/)
+  - Electron-inspirierte Frameworks:
+    - **[Tauri](https://tauri.app/)**
+    - **[neutralinojs](https://neutralino.js.org/)
+    - Low-Code: Konvertiere eine Webseite in eine mobile App: bspw. **[Median](https://median.co/)** (früher: GoNative)
 - App Performance Monitoring (und mehr): **[Instabug](https://www.instabug.com/)**
-- Konvertiere eine Webseite in eine mobile App: bspw. **[GoNative](https://gonative.io/)**
 - In-App Purchases / Monetarisierung: [Adapty](https://adapty.io/) als Low-Code Plattform und SDK um In-App Subscriptions einfach in Mobile Apps zu integrieren
 
 ## Semantic Web / Knowledge Representation
