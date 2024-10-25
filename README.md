@@ -210,12 +210,13 @@ Datenexploration und Visualisierung:
 - **NoSQL:** DB-Engines Rankings [Key/Value-Stores](https://db-engines.com/de/ranking/key-value+store) | [Document-Stores](https://db-engines.com/de/ranking/document+store) | [Wide-Column-Stores](https://db-engines.com/de/ranking/wide+column+store)
   - **MongoDB** \[choco install mongodb.install \] plus IDE/GUI: [Compass](https://www.mongodb.com/products/tools/compass) \[choco install mongodb-compass\] or [Studio 3T](https://studio3t.com/download/) \[choco install studio3t\]
   - **Cassandra**: unter Windows per DataStax Desktop! (benötigt WSL2 und Docker Deskop)
-    1. Installer: https://downloads.datastax.com » Reiter "Tools" » Liste "DataStax Desktop" » Package "Windows" » Button "Download"! (ggf. Shortcut-URL: https://downloads.datastax.com/#desktop)
+        1. Installer: https://downloads.datastax.com » Reiter "Tools" » Liste "DataStax Desktop" » Package "Windows" » Button "Download"! (ggf. Shortcut-URL: https://downloads.datastax.com/#desktop)
     2. Installieren Sie DataStax Desktop.
     3. Starten Sie DataStax Desktop und installieren Sie Cassandra.
     4. Nachdem in DataStax Desktop alle vier Installationsschritte grün sind:
       - Klicken Sie in DataStax Desktop oben bei den Symbolen auf das "Stacks" Symbol.
       - Klicken Sie dann unten bei  "Apache Cassandra" auf den Pfeil nach unten "Show hidden layers", so dass Sie einen Bereich "CQL Shell" sehen, mit einem Button "Launch CQL Shell". Klicken Sie diesen!
+    - Alternative: [ScyllaDB](https://www.scylladb.com/) a drop-in replacement for Cassandra, providing the same CQL interface and drivers \[docker run --name scylla -d scylladb/scylla\]
   - **Redis** \[choco install redis\]
   - **Couchbase** Server: [Community Edition (CE)](https://developer.couchbase.com/tutorial-getting-started-with-couchbase-ce) \[docker run -itd --name couchbase-server -p 8091-8094:8091-8094 -p 11210:11210 couchbase:community\]
   - **neo4j**: [Desktop](https://neo4j.com/deployment-center/?desktop-gdb) or [Graph Database Self-Managed » Community](https://neo4j.com/deployment-center/?gdb-selfmanaged)
@@ -307,7 +308,7 @@ Datenexploration und Visualisierung:
   - Google [Search Console (GSC)](https://search.google.com/search-console/) | Google [Trends](https://trends.google.com/trends/)
   - The Hoth [Google Rank Checker](https://www.thehoth.com/search-engine-rankings/)
   - RankWatch [Website Analyzer](https://www.rankwatch.com/tools/web-analyzer.html) + RankWatch [Backlink Checker](https://www.rankwatch.com/backlinks/)
-  - Weiterführende Quellen: [Awesome Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization) | ahrefs [Free SEO Tools](https://ahrefs.com/blog/free-seo-tools/) | buffer [Free SEO Tools](https://buffer.com/library/free-seo-tools/)
+  - Weiterführende Quellen: [Awesome Search Engine Optimization](https://github.com/marcobiedermann/search-engine-optimization) | ahrefs [Free SEO Tools](https://ahrefs.com/blog/free-seo-tools/) | buffer [Free SEO Tools](https://buffer.com/library/free-seo-tools/) | [Awesome Marketing](https://github.com/marketingtoolslist/awesome-marketing)
 - Ausgewählte fortgeschrittene Bausteine
   - **[KrakenD](https://www.krakend.io/)**: Open Source API Gateway (with [KrakenD Designer](https://designer.krakend.io))
   - **[Quarkus](https://quarkus.io/)** \[CLI: **choco install quarkus**\] Kubernetes-native Java Stack
