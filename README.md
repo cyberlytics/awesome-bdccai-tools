@@ -257,6 +257,7 @@ Datenexploration und Visualisierung:
   - JS/TS: **[Svelte](https://svelte.dev)** | **[Vue](https://vuejs.org/)** | **[Preact](https://preactjs.com/)**| [React](https://reactjs.org/) | [Aurelia 2](https://github.com/aurelia/aurelia) | [Angular](https://angular.io/)
   - Java: [Vaadin](https://vaadin.com/)
   - C#: [ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-6.0) [Blazor](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-6.0)[Py](https://pyscript.net)[: PyScript](https://pyscript.net)
+  - Erlang/Exlixir: [Phoenix](https://phoenixframework.org/)
 - Micro Frontends: Webartikel [11 **Micro Frontends Frameworks** You Should Know](https://itnext.io/11-micro-frontends-frameworks-you-should-know-b66913b9cd20)
 - Die [üblichen Verdächtigen](https://www.techempower.com/benchmarks/) (Server-side):
   - Java: **[Micronaut](https://micronaut.io/)** \[CLI: choco install micronaut\] | [Spring Boot](https://start.spring.io/) \[choco install spring-boot-cli\] insbesondere mit [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) + [Netty](https://netty.io/)
@@ -512,6 +513,7 @@ Datenexploration und Visualisierung:
 
 ## Low-Code / No-Code
 
+- Low-Code Visual Database: [APITable](https://github.com/apitable/apitable) (WSL2: curl https://apitable.github.io/install.sh | bash)
 - **[DataRobots](https://www.datarobot.com/)**: Low-Code ML; mit einem „[Academic Program](https://www.datarobot.com/education/academic-support-program/)“
 - (€:) [Amazon **SageMaker**](https://aws.amazon.com/de/sagemaker/), allerdings [2 Monate kostenlose Kontingente](https://aws.amazon.com/de/sagemaker/pricing/)
 - Manche zählen **[KNIME](https://www.knime.com/)** \[**choco install knime**\] auch als Low-Code ML Werkzeug
