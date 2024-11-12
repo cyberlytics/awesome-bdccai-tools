@@ -474,7 +474,17 @@ Datenexploration und Visualisierung:
   - Chatbots: [**perplexity**.ai](https://www.perplexity.ai/) (mit „Focus: Academic“)
     - Alternativen: OpenAI [ChatGPT](https://openai.com/blog/chatgpt/), [HuggingChat](https://huggingface.co/chat/), [Andi](https://andisearch.com), Microsoft [Bing](https://bing.com/new), Google [Bard](https://bard.google.com/)
   - Multi-modale KI: Google **[Gemini](https://deepmind.google/technologies/gemini/)**
-  - Lokale LLMs: [**Jan**.ai](https://jan.ai), **[Open WebUI](https://github.com/open-webui/open-webui)**
+  - Lokale LLMs / Offline:
+    * **[Msty](https://msty.app/)** ⭐
+    * **[Xorbits Inference](https://github.com/xorbitsai/inference)** ([OpenAI-equivalent API](https://inference.readthedocs.io/en/stable/user_guide/client_api.html) at http://localhost:9997/v1)
+    * [**Jan**.ai](https://jan.ai/download) (OpenAI-equivalent API at https://localhost:1337)
+    * **[LM Studio](https://lmstudio.ai/)**
+    * **[Open WebUI](https://github.com/open-webui/open-webui)**
+    * [OpenLLM](https://github.com/bentoml/OpenLLM) (pip install openllm; chat UI at http://localhost:3000/chat)
+  - Lokales Text-to-Image:
+    - AUTOMATIC1111 [stable-diffusin-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+    - [Fooocus](https://github.com/lllyasviel/Fooocus)
+    - [CompyUI](https://github.com/comfyanonymous/ComfyUI) ([Tutorial](https://stable-diffusion-art.com/comfyui/))
   - Weiterführende Quellen: [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
 - ML-Plattformen
   - Desktop/Self-Hosting:
