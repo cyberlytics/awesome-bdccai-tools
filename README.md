@@ -23,30 +23,29 @@ Hinweise:
 
 <!-- toc -->
 
-- [Awesome Big Data und Cloud-Computing für KI](#awesome-big-data-und-cloud-computing-für-ki)
-  - [Datenbanksysteme](#datenbanksysteme)
-  - [Datenbankwerkzeuge](#datenbankwerkzeuge)
-  - [Datenvisualisierung](#datenvisualisierung)
-  - [Data Science](#data-science)
-  - [Big Data](#big-data)
-  - [Moderne Web-Anwendungsentwicklung](#moderne-web-anwendungsentwicklung)
-  - [Mobile Apps](#mobile-apps)
-  - [Semantic Web / Knowledge Representation](#semantic-web--knowledge-representation)
-  - [Verteilte Systeme](#verteilte-systeme)
-  - [Cloud-Computing](#cloud-computing)
-  - [Operations Research (OR) / Optimization](#operations-research-or--optimization)
-  - [ML / AI](#ml--ai)
-  - [Low-Code / No-Code](#low-code--no-code)
-  - [Edge / Fog / IoT](#edge--fog--iot)
-  - [dApps](#dapps)
-  - [Security](#security)
-  - [Privacy](#privacy)
-  - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
-  - [Footer](#footer)
-    - [Future Work](#future-work)
-    - [Contribute](#contribute)
-    - [Backers](#backers)
-    - [License](#license)
+- [Datenbanksysteme](#datenbanksysteme)
+- [Datenbankwerkzeuge](#datenbankwerkzeuge)
+- [Datenvisualisierung](#datenvisualisierung)
+- [Data Science](#data-science)
+- [Big Data](#big-data)
+- [Moderne Web-Anwendungsentwicklung](#moderne-web-anwendungsentwicklung)
+- [Mobile Apps](#mobile-apps)
+- [Semantic Web / Knowledge Representation](#semantic-web--knowledge-representation)
+- [Verteilte Systeme](#verteilte-systeme)
+- [Cloud-Computing](#cloud-computing)
+- [Operations Research (OR) / Optimization](#operations-research-or--optimization)
+- [ML / AI](#ml--ai)
+- [Low-Code / No-Code](#low-code--no-code)
+- [Edge / Fog / IoT](#edge--fog--iot)
+- [dApps](#dapps)
+- [Security](#security)
+- [Privacy](#privacy)
+- [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
+- [Footer](#footer)
+  - [Future Work](#future-work)
+  - [Contribute](#contribute)
+  - [Backers](#backers)
+  - [License](#license)
 
 <!-- tocstop -->
 
@@ -176,6 +175,9 @@ Datenexploration und Visualisierung:
   - **[SQL Notebook](https://sqlnotebook.com/)** \[**choco install sqlnotebook**\]
     - Alternative: **[Tad](https://www.tadviewer.com/)** \[**choco install tad**\]
   - [Google **Collab**](https://colab.research.google.com/) Notebook
+- Visualisierungen:
+  - [VersaTiles](https://versatiles.org/): Geodaten
+  - Weiterführende Referenzen: [Awesome Dataviz](https://github.com/hal9ai/awesome-dataviz), [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial), [Awesome Big Data » Data Visualization](https://github.com/oxnr/awesome-bigdata?tab=readme-ov-file#data-visualization)
 - Datensets
   - Genartive KI / LLM: **[Laion Open Dataset](https://laion.ai/)**,**[OpenWebText](https://skylion007.github.io/OpenWebTextCorpus/)**, **[CommonCrawl](https://commoncrawl.org/)** und **[The Pile](https://pile.eleuther.ai/)**
   - Sammlungen: [**kaggle** Datasets](https://www.kaggle.com/datasets) ⭐ | **[Open Data on AWS](https://registry.opendata.aws/)** | **[Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)** ⭐
@@ -241,7 +243,7 @@ Datenexploration und Visualisierung:
 - GPU-Computing:
   - **[OpenCL](https://www.khronos.org/opencl/)** (Open Computing Language): Standardschnittstelle für paralleles Rechnen mit aufgaben- und/oder datenbasierter Parallelität, als HW-Plattform-Abstraktion für CPUs, GPUs, DSPs, FGPAs, usw.
     - Java: [JOCL](http://www.jocl.org/) = Java bindings for OpenCL | [Lightweight Java Game Library](https://www.lwjgl.org/) (LWJGL) = Java-Abstraktion für OpenGL, OpenAL, OpenCL und OpenVR
-- Weiterführende Quellen: [Awesome Big Data](https://github.com/newTendermint/awesome-bigdata) | [Hadoop Ecosystem Table](https://hadoopecosystemtable.GitHub.io/)
+- Weiterführende Quellen: [Awesome Big Data #1](https://github.com/newTendermint/awesome-bigdata) | [Hadoop Ecosystem Table](https://hadoopecosystemtable.GitHub.io/) | [Awesome Big Data #2](https://github.com/oxnr/awesome-bigdata)
 
 ## Moderne Web-Anwendungsentwicklung
 
