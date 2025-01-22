@@ -654,6 +654,10 @@ Persönlich:
     ```
   - **[privacy.sexy](https://privacy.sexy/)** ⭐: per CMD-Script-Ausführung, Verwendende Level "Standard"
     - Für Fortgeschrittene: **[W10Privacy](https://www.w10privacy.de/)** \[choco install w10privacy\]
+- (Personal) Mobile Phone hardening
+  - Android: [Techlore Video](https://www.youtube.com/watch?v=dMWEym0KPcA)
+    - To be considered: [GrapheneOS](https://grapheneos.org/), [CalyxOS](https://calyxos.org/)
+  - Apple: [The Ultimate iOS Hardening Guide](https://github.com/iAnonymous3000/iOS-Hardening-Guide) | [Techlore Video](https://www.youtube.com/watch?v=d2bJVKcIEg0)
 - **[PrivaZer](https://privazer.com/)** \[**choco install privazer.install**\]: Free PC cleaner & Privacy tool that cleans unwanted traces
 - **[eBlocker](https://eblocker.org/)**: (Personal) Web Privacy Protection
 - **[Tor Browser](https://www.torproject.org/download/)** \[**choco install tor-browser**\]: explore the internet with privacy
