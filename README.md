@@ -277,6 +277,7 @@ Datenexploration und Visualisierung:
   - **[wasmtime](https://wasmtime.dev)**: fast and secure runtime for WebAssembly
 - Markdown Tools: vgl. [Awesome **Markdown**](https://github.com/mundimark/awesome-markdown)
 - Tools for Web Programmer:
+  - Browserkompatibilität: **[Can I use](https://caniuse.com/)**
   - Generatoren: **[favic-o-matic](https://favicomatic.com/)** favicon Generator, [**.htaccess**](https://www.htaccessredirect.net/) Generator, **[JQueryForm](https://www.jqueryform.com/)** Form Builder, [Flexy Boxes](https://the-echoplex.net/flexyboxes/)
   - [HTML **Cleaner**](https://html-cleaner.com/) (auch für [CSS](https://html-cleaner.com/css/) und [JS](https://html-cleaner.com/js/)) sowie HTML Beautifier **[DirtyMarkup](https://www.10bestdesign.com/dirtymarkup/)**
   - URLs: [URL-Decoder](https://www.urldecoder.org/)
@@ -285,6 +286,9 @@ Datenexploration und Visualisierung:
     - Hilfreich: **[ObisdianShell](https://github.com/Chaoses-Ib/ObsidianShell)** (Associate Markdown files with Obsidian)
     - Nennenswerte Plugins: [MK's Guide **Empfehlungsliste**](https://www.mksguide.com/best-obsidian-plugins/), [obsidian-**advanced-uri**](https://github.com/Vinzent03/obsidian-advanced-uri), [obsidian-**languagetool**-plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin)
     - Historischer Hinweis: Typora nicht mehr kostenlos nach 0.11.18
+- Tools für PWAs:
+  - Build and Publish: [PWABuilder](https://www.pwabuilder.com/)
+  - Icon Generator: [miTT PWA Asset Generator](https://mittl-medien.de/pwa-asset-generator)
 - Tools for Web Designers:
   - Kostenlose Icons/Stock-Fotos/Illustrationen: vgl. Abschnitt **[Bildmaterialien](https://github.com/cyberlytics/awesome-thesis-tools#bildmaterialien)** auf meiner Schwesterseite
   - Tools-Listen von speckyboy: [Tools for Web Designers #1](https://speckyboy.com/tiny-little-tools-web-design/), [Tools for Web Designers #2](https://speckyboy.com/tiny-little-web-based-tools-web-designers/), [CSS-Tools](https://speckyboy.com/free-tools-apps-css/)
@@ -342,6 +346,8 @@ Datenexploration und Visualisierung:
     - **[Tauri](https://tauri.app/)**
     - **[neutralinojs](https://neutralino.js.org/)
     - Low-Code: Konvertiere eine Webseite in eine mobile App: bspw. **[Median](https://median.co/)** (früher: GoNative)
+- Tools für Mobile Apps:
+  - App Icon Resizer: **[MakeAppIcon](https://makeappicon.com/)**
 - App Performance Monitoring (und mehr): **[Instabug](https://www.instabug.com/)**
 - In-App Purchases / Monetarisierung: [Adapty](https://adapty.io/) als Low-Code Plattform und SDK um In-App Subscriptions einfach in Mobile Apps zu integrieren
 
@@ -700,8 +706,11 @@ Persönlich:
 - Data Privacy Management
   - Werkzeuge, welche Data Broker kontaktieren und ihnen Lösch-Aufforderungen schicken
   - (€) Anbieter: [Incogni](https://www.cloudwards.net/goto/62358/), [DeleteMe](https://www.cloudwards.net/go/deleteme/), [IDX](https://www.idx.us/), [Kanary](https://www.thekanary.com/)
-- **[sdelete](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)** \[**choco install sdelete --version=1.61.0.20160210**\]: Sicheres Löschen von Dateien
-  - (ich empfehle die Version 1.61; aber Obacht: die Parameter-Semantik hat sich zur 2.0 geändert, in 1.61 wird „-c“ für „zero free space“ verwendet bspw. „sdelete -c C: -nobanner“)
+- Free Space Cleaner
+  - **[sdelete](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)** \[**choco install sdelete --version=1.61.0.20160210**\]: Sicheres Löschen von Dateien
+    - (ich empfehle die Version 1.61; aber Obacht: die Parameter-Semantik hat sich zur 2.0 geändert, in 1.61 wird „-c“ für „zero free space“ verwendet bspw. „sdelete -c C: -nobanner“)
+  - (auch Teil der [PrivaZer](https://privazer.com/)-Funktionalität, s. oben)
+  - (auch das seit Windows 10 integrierte Werkzeug cipher unterstützt das mit der \/w: Option)
 - **[ExifTool](https://exiftool.org/)** \[**choco install exiftool**\]: reading, writing and editing meta information (many [supported file types](https://exiftool.org/#supported))
 - **[BatchPurifier](https://www.digitalconfidence.com/BatchPurifier.html)**: kostenpflichtiges aber wertvolles Werkzeug zur Metadaten-Tiefenreinigung („Sanitize“) von Büro- und Multimedia-Dateien
   - Auch für den persönlichen Gebrauch (~$19), ABER VORSICHT: "The number of computers on which you may activate this software may not exceed the number of computer licenses that you have purchased. Once a license is activated, it's tied to the specific computer and cannot be transferred to another. Regardless of the circumstances." (Also muss man bei einem Hardware-Wechsel seines PCs eine neue Lizenz kaufen; preislich auch privat machbar, aber seien Sie vorsensibilisiert, denn dieses Modell sind End-User nicht gewöhnt.)
