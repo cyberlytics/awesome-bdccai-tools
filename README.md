@@ -181,7 +181,7 @@ Datenexploration und Visualisierung:
 - Datensets
   - Genartive KI / LLM: **[Laion Open Dataset](https://laion.ai/)**,**[OpenWebText](https://skylion007.github.io/OpenWebTextCorpus/)**, **[CommonCrawl](https://commoncrawl.org/)** und **[The Pile](https://pile.eleuther.ai/)**
   - Sammlungen: [**kaggle** Datasets](https://www.kaggle.com/datasets) ⭐ | **[Open Data on AWS](https://registry.opendata.aws/)** | **[Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)** ⭐
-  - Kuratiert: [**100 interesting data sets** for statistics](https://rs.io/100-interesting-data-sets-for-statistics/) | [**Springboard**: free public data sets for your data science project](https://www.springboard.com/blog/free-public-data-sets-data-science-project/)
+  - Kuratiert: [**100 interesting data sets** for statistics](https://rs.io/100-interesting-data-sets-for-statistics/) | [**Springboard**: free public data sets for your data science project](https://www.springboard.com/blog/data-science/free-public-data-sets-data-science-project/)
   - Semantic Web: **[DBpedia](https://wiki.dbpedia.org/develop)**
   - Ökonomie: **[Worldbank Open Data](https://data.worldbank.org/)**
   - Zeichnungen: [**Quick Draw!** The Data](https://quickdraw.withgoogle.com/data) (Montagsmaler-ähnlich; bspw. [Ameisen](https://quickdraw.withgoogle.com/data/ant))
@@ -394,9 +394,9 @@ Datenexploration und Visualisierung:
   - Letzte Version bspw. von [Alpine](https://endoflife.date/alpine)? Bspw. mittels [**endoflife**.date](https://endoflife.date/) (EOL)
 - Container Registry:
   - DockerHub ➔ **docker.io**/username/appname:tagname
-  - Git Hub **[GHCR](https://www.ghcr.io)** ➔ **ghcr.io**/username/appname:tagname
+  - Git Hub **GHCR** ➔ **ghcr.io**/username/appname:tagname
   - Red Hat **[Quay](https://quay.io/)** ➔ **quay.io**/username/appname:tagname
-  - Eigene Registry-Installation \[docker run … [docker.io/registry:2](https://www.docker.com/blog/how-to-use-your-own-registry-2/%60)\] ➔ **localhost:5000**/username/appname:tagname
+  - Eigene Registry-Installation \[docker run … [docker.io/registry:2](https://www.docker.com/blog/how-to-use-your-own-registry-2/)\] ➔ **localhost:5000**/username/appname:tagname
   - (zzgl. diejenigen von Amazon, Microsoft, …)
 - Kubernetes:
   - Browser
@@ -470,7 +470,7 @@ Datenexploration und Visualisierung:
 - In-Database Processing (ML)
   - **[PostgresML](https://postgresml.org/)**
   - [Apache **Flink ML**](https://nightlies.apache.org/flink/flink-ml-docs-stable/)
-  - **[Exasol UDF](https://docs.exasol.com/db/latest/database_concepts/udf_scripts.htm)** (u.a. [Map/](http://biggis-project.eu/biggis-docs/architecture/exasol-database/exasol-udf/#mapreduce-programs)[Reduce](http://biggis-project.eu/biggis-docs/architecture/exasol-database/exasol-udf/#mapreduce-programs)-Algorithmen, [Python-Classification](https://docs.Exasol.com/advanced_analytics/python_classification_example.htm)-Beispiel)
+  - **[Exasol UDF](https://docs.exasol.com/db/latest/database_concepts/udf_scripts.htm)** (u.a. [Python-Classification](https://docs.Exasol.com/advanced_analytics/python_classification_example.htm)-Beispiel)
   - [Amazon **Redshift ML**](https://aws.amazon.com/de/redshift/features/redshift-ml/)
   - [Google **BigQuery ML**](https://cloud.google.com/bigquery-ml/docs/introduction)
   - **[MindsDB](https://mindsdb.com/)**
@@ -576,7 +576,7 @@ Professionell:
 - **[Wireshark](https://www.wireshark.org/)** \[**choco install wireshark**\]: Open Source Network Packet Analysis
 - **[nmap](https://nmap.org/)** \[**choco install nmap**\]: Open Source Network Scanning and Auditing
 - **[Password4j](https://password4j.com)**: fluent cryptographic Java library for passwords
-- Passwort-Listen: [**SecList**-Sammlung](https://github.com/danielmiessler/SecLists) | [**SkullSecurity**-Sammlung](https://wiki.skullsecurity.org/index.php/Passwords) | [**haveibeenowned**-Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader) | [weitere…](https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/)
+- Passwort-Listen: [**SecList**-Sammlung](https://github.com/danielmiessler/SecLists) | [**SkullSecurity**-Sammlung](https://www.skullsecurity.org/wiki/Passwords) | [**haveibeenowned**-Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader) | [weitere…](https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/)
 - **[Hack the Box](https://www.hackthebox.com/)**: kostenloser Cloud-basierter Hacking Playground
 - Tenable [**Nessus** Essentials](https://www.tenable.com/products/nessus/nessus-essentials) (kostenlos für 16 IPs): Vulnerability Assessment im Netzwerk
   - Sowie für Studierende und Dozenten die Option: [Tenable Essentials for Education](https://www.tenable.com/tenable-for-education)
@@ -628,7 +628,7 @@ Persönlich:
 - Checker:
   - **[IsLegitSite](https://www.islegitsite.com/)** oder **[ScamAdvisor](https://www.scamadviser.com/)**: Plausibilisieren Sie, ob eine Website legal ist oder ein Betrug, überprüfen Sie den Ruf der Website
 - Betriebssysteme
-  - Desktop: **[Qubes OS](https://www.qubes-os.org/)** (Bachelolarbeit: [Evaluation](https://www.cyberlytics.eu/theses/all/OTH-AW/BT_2022_Schotter_Tobias_Thesis/))
+  - Desktop: **[Qubes OS](https://www.qubes-os.org/)**
   - Android: **[GrapheneOS](https://grapheneos.org/)**
 - Sandboxes:
   - Mail Attachments: **[Dangerzone](https://dangerzone.rocks/)** (inspiriert von [Qubes OS trusted PDF](https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html))
