@@ -98,7 +98,7 @@ Hinweise:
 - **[Beekeeper](https://www.beekeeperstudio.io/)** \[**choco install beekeeper-studio.portable**\]: Advanced SQL Editor
   - Alternativen: [**DBeaver** Community Edition](https://dbeaver.io/) \[**choco install dbeaver**\] mit [Open-Source Hintergrund](https://github.com/dbeaver/dbeaver), **[DbVisualizer](https://www.dbvis.com/pricing/)** \[**choco install db-visualizer**\], etc.
 - (€:) **[DataGrip](https://www.jetbrains.com/datagrip/)**, kostenlos über die [Free Educational Licenses](https://www.jetbrains.com/community/education/#students) für Studierende
-- **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattfrom SQL Editor, inkl. NoSQL-Unterstützung und starkem JSON-Viewer
+- **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattform SQL Editor, inkl. NoSQL-Unterstützung und starkem JSON-Viewer
 - **[DbSchema](https://dbschema.com/)** [Community Edition](https://dbschema.com/): SQL Editor, Schema Reverse Engineering and Visualization
   - (Pro Version: Schema Management and Database Change Management)
 - **[SchemaCrawler](https://www.schemacrawler.com/)** \[**choco install schemacrawler**\]: Open-Source Database Schema Discovery and Comprehension Tool; generates Schema Diagrams
@@ -192,13 +192,14 @@ Datenexploration und Visualisierung:
 
 ## Big Data
 
+- [Big Data Landscape](https://mattturck.com/bigdata2017/) (bis 2017) von Matt Turck sowie seine [MAD Landscapes](https://mattturck.com/category/big-data/) (= Machine Learning, AI & Data) 
 - Archetype **Petabyte**-scale Frameworks (insb. analytische Workloads): [Apache **Hadoop**](https://hadoop.apache.org/) (Two-Phase MapReduce, batch mode, „active Archive“), inkl. dessen Erweiterung durch [Apache **Spark**](https://spark.apache.org/) (RDD, iterative algorithms, In-Memory)
   - Playground: Pre-Built VM [Oracle Big Data Lite Virtual Machine](https://www.oracle.com/downloads/developer-vm/community-downloads.html) (BDLite) and [Samples](https://github.com/oracle/big-data-lite)
   - Hadoop on Windows:
     - Docker? [HowTo: Big Data Europe](https://cjlise.github.io/hadoop-spark/Setup-Hadoop-Cluster/)
     - Installation? [HowTo: Hadoop 3.x](https://github.com/ruslanmv/How-to-install-Hadoop-on-Windows)
   - Spark on Windows:
-    - Terminological overveiw: Scala-variant = Spark-shell / Python-variant = PySpark
+    - Terminological overview: Scala-variant = Spark-shell / Python-variant = PySpark
     - Docker? [Spark Shell](https://hub.docker.com/r/apache/spark/) \[`docker run -it apache/spark /opt/spark/bin/spark-shell`\]
       - On Windows with a scala file and data in a local directory:
         ```batchfile
@@ -291,7 +292,7 @@ Datenexploration und Visualisierung:
   - Icon Generator: [miTT PWA Asset Generator](https://mittl-medien.de/pwa-asset-generator)
 - Tools for Web Designers:
   - Kostenlose Icons/Stock-Fotos/Illustrationen: vgl. Abschnitt **[Bildmaterialien](https://github.com/cyberlytics/awesome-thesis-tools#bildmaterialien)** auf meiner Schwesterseite
-  - Tools-Listen von speckyboy: [Tools for Web Designers #1](https://speckyboy.com/tiny-little-tools-web-design/), [Tools for Web Designers #2](https://speckyboy.com/tiny-little-web-based-tools-web-designers/), [CSS-Tools](https://speckyboy.com/free-tools-apps-css/)
+  - Werkzeuglisten von speckyboy: [Tools for Web Designers #1](https://speckyboy.com/tiny-little-tools-web-design/), [Tools for Web Designers #2](https://speckyboy.com/tiny-little-web-based-tools-web-designers/), [CSS-Tools](https://speckyboy.com/free-tools-apps-css/)
   - Usage-Statistiken: [W³Techs](https://w3techs.com/technologies/) (bspw. [PHP-Versions](https://w3techs.com/technologies/details/pl-php), [Wordpress-Versions](https://w3techs.com/technologies/details/cm-wordpress), uvm.)
   - [**Lorem-Ipsum**-Generatoren](https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/)
   - Deutsch:
@@ -377,6 +378,7 @@ Datenexploration und Visualisierung:
 
 ## Cloud-Computing
 
+- [Cloud Native Landscape](https://landscape.cncf.io)
 - Kostenlose Cloud Kontingente: [AWS Free Tier](https://aws.amazon.com/free/), [Azure Free Tier](https://azure.microsoft.com/pricing/free-services), [Google Cloud Free Tier](https://cloud.google.com/free/)
   - Nur für Studierende: [Azure for Students](https://azure.microsoft.com/free/students/), [Heroku for Students](https://www.heroku.com/students), [MongoDB for Students](https://www.mongodb.com/students), GitHub Pages via [GitHub Student Developer Pack](https://education.github.com/pack)
 - Cloud Marktfüher: [Amazon **AWS**](https://aws.amazon.com/free/), [Microsoft **Azure**](https://azure.microsoft.com/pricing/free-services/), [**Google** Cloud](https://cloud.google.com/free), [**Alibaba** Cloud](https://www.alibabacloud.com/free), [**IBM** Cloud](https://www.ibm.com/cloud/free), [**Tencent** Cloud](https://www.tencentcloud.com/campaign/freetier), [Oracle **OCI**](https://www.oracle.com/cloud/free/), Heroku (no free tier anymore \*sigh\*), **[DigitalOcean](https://www.digitalocean.com/pricing/app-platform)**, [**SAP** BTP](https://www.sap.com/products/technology-platform/trial.html)
@@ -409,8 +411,8 @@ Datenexploration und Visualisierung:
     - Rancher **[RKE1](https://rke.docs.rancher.com/)** (Pure-Container-basiert, über [RancherOS](https://github.com/rancher/os), mit Docker als Container Engine) \[**choco install rke**\]
     - Rancher **[RKE2](https://rancher.com/products/rke)** (Combines RKE1 and K3s; embedded container runtime is containerd)
 - KI-gestütztes Kubernetes-Management:
-  - **[K8sGPT](https://k8sgpt.ai)**: tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple english
-- Kubernetes Depoyment (with Package Manager, Dependencies, …):
+  - **[K8sGPT](https://k8sgpt.ai)**: tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple English
+- Kubernetes Deployment (with Package Manager, Dependencies, …):
   - **[Helm](https://helm.sh)**: Helm Charts help you define, install, and upgrade even the most complex Kubernetes application
   - **[Acorn](https://www.acorn.io)**: Containerized application packaging framework that simplifies deployment on Kubernetes
 - **HashiCorp** Stack:
@@ -451,8 +453,8 @@ Datenexploration und Visualisierung:
 ## Operations Research (OR) / Optimization
 
 - Überblick/Werkzeuge-Einstieg
-  - Werzeuge: Newsletter **[OPTIMA 103](http://www.mathopt.org/Optima-Issues/optima103.pdf)** der Mathematical Optimization Society
-  - Benchmarks: **[for Optimizaton Software](https://plato.asu.edu/bench.html)**
+  - Werkzeuge: Newsletter **[OPTIMA 103](http://www.mathopt.org/Optima-Issues/optima103.pdf)** der Mathematical Optimization Society
+  - Benchmarks: **[for Optimization Software](https://plato.asu.edu/bench.html)**
 - Solver für Lineare Programmierung
   - Open Source: **[CBC](https://github.com/coin-or/Cbc)**, **[YALMIP](http://users.isy.liu.se/johanl/yalmip/)**, **[GLPK](http://www.gnu.org/software/glpk/glpk.html)**, COIN-OR CLP/**[CBC](https://github.com/coin-or/Cbc)**, **[HiGHS](https://highs.dev/)**, **[SCIP](https://www.scipopt.org/)**
   - Kommerziell: **[CPLEX](https://www.ibm.com/support/knowledgecenter/SSSA5P_12.10.0/ilog.odms.cplex.help/cplex_KC_home.html)**, **[Gurobi](http://www.gurobi.com/)**, **[XPRESS-MP](http://www.fico.com/en/products/fico-xpress-optimization-suite/)**, **[MOSEK](https://www.mosek.com/)**
@@ -505,7 +507,7 @@ Datenexploration und Visualisierung:
     - **[ClearML](https://app.clear.ml/)**, wie oben bei Desktop bereits aufgeführt, auch mit einem Free-Tier-Angebot in der Cloud
     - (€€€): **[Dataiku](https://www.dataiku.com/product/get-started/)**, u.a. [in Kombination mit Snowflake](https://www.dataiku.com/partners/snowflake/)
 - MLOps-bezogen:
-  - (Die ganzen ML-Frameworks wie AWS SameMaker, IBM Watson, ClearML, MLflow haben auch alle integrierte MLops-Funktionalitäten, …)
+  - (Die ganzen ML-Frameworks wie AWS SageMaker, IBM Watson, ClearML, MLflow haben auch alle integrierte MLops-Funktionalitäten, …)
   - [Iterative **Studio**](https://studio.iterative.ai/): Collaboration for Machine Learning Teams
   - [Iterative](https://dvc.org/) **[DVC](https://dvc.org/)**: Open-source Version Control System for Machine Learning Projects
   - **[Sacred](https://github.com/IDSIA/sacred)**: A tool to help you configure, organize, log and reproduce experiments
@@ -543,7 +545,7 @@ Datenexploration und Visualisierung:
 
 ## Edge / Fog / IoT
 
-- Cloud Marktfüher: [Amazon **IoT Greengrass**](https://aws.amazon.com/greengrass/) | [Microsoft **IoT Edge**](https://azure.microsoft.com/en-in/services/iot-edge/) | [Google **Cloud IoT**](https://cloud.google.com/solutions/iot/)
+- Cloud Marktführer: [Amazon **IoT Greengrass**](https://aws.amazon.com/greengrass/) | [Microsoft **IoT Edge**](https://azure.microsoft.com/en-in/services/iot-edge/) | [Google **Cloud IoT**](https://cloud.google.com/solutions/iot/)
   - Nennenswert: [NVIDIA **EGX**](https://www.nvidia.com/en-us/data-center/products/egx-edge-computing/)
 - **[balenaEtcher](https://www.balena.io/etcher/)** \[**choco install etcher**\]: Flash OS images to SD cards & USB drives (u.a. für Raspberry Pi)
 - **[balenaCloud](https://www.balena.io/cloud)**: IoT Flotten-Management, u.a. für Raspberry Pi
@@ -615,7 +617,7 @@ Persönlich:
 - **PGP** / GnuPG? **[gpg4win](https://www.gpg4win.org/)** \[**choco install gpg4win**\], v.a. [Kleopatra](https://apps.kde.org/de/kleopatra/) sowie [GnuPG](https://gnupg.org/), [GpgEX](https://www.openhub.net/p/gpgex), [GPA](https://www.gnupg.org/related_software/gpa/index.html), [GpgOL](https://gpg4win.org/doc/en/gpg4win-compendium_33.html)
   - E-Mail Encryption: [openpgp.org Übersicht](https://www.openpgp.org/software/)
 - DNS: Malware-filtering
-  - **[Quad9](https://quad9.net)**: schweizer DNS-Provider, exzellentes Malware-filtering
+  - **[Quad9](https://quad9.net)**: Schweizer DNS-Provider, exzellentes Malware-filtering
   - **[Mullvad](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/)**: schwedischer VPN-Provider mit diversen DNS-Varianten
   - **[Control D](https://controld.com/free-dns)**: amerikanischer DNS-Provider; Obacht wegen Anforderungen der US-Administration
   - (Die No-Logging und Anti-Ads/Trackers DNS Server sind unten bei Privacy)
@@ -698,7 +700,7 @@ Persönlich:
   - **[Privacy Policy Checker](https://gdprwise.eu/policy-checker/)**: Prüft eine Website-Datenschutzrichtlinie auf Übereinstimmung mit der GDPR-Verordnung
 - E-Mail Accounts: **[Tutanota](https://tutanota.com/)** (aus Hannover, kostenlose 1GB), **[Proton](https://proton.me/mail)** (aus der Schweiz, kostenlose 1GB)
   - Anonyme Einweg-Mail / 10-Minute-Mail: **[temp-mail.io](https://temp-mail.io/de)** (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/temp-mail/)), [temp-mail.org](https://temp-mail.org/de/), (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/temp-mail-disposable-temporary-email/)), [FakesMail](https://fakesmail.com/de) (Browser-Ext., u.a. [Opera](https://fakesmail.com/de)), [tempr.email](https://tempr.email/) (aus DE, aber ohne Browser-Integration), [uvm.](https://praxistipps.chip.de/wegwerf-email-adressen-diese-anbieter-gibts_1674)
-  - E-Mail-Forwader: **[ManyMe](https://manyme.com/)** (ohne Browser-Integration), [TrashMail](https://trashmail.com/) (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/trashmailcom-create-disposable-address/)), etc. pp.
+  - E-Mail-Forwarder: **[ManyMe](https://manyme.com/)** (ohne Browser-Integration), [TrashMail](https://trashmail.com/) (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/trashmailcom-create-disposable-address/)), etc. pp.
 - Auto-Unsubscribe Newsletter: **[unsubscribe-gmail](https://github.com/labnol/unsubscribe-gmail)**, **[hatchet](https://github.com/AnalogJ/hatchet)**
   - (Im Kontext eines Gmail-Accounts benötigen praktisch alle Werkzeuge, außer unsubscribe-gmail, eine aktive [2FA](https://myaccount.google.com/security) des Gmail-Kontos)
   - Kostenbehaftete aber empfehlenswerte Alternative (€): **[Leave Me Alone](https://leavemealone.app/)**
