@@ -566,7 +566,7 @@ Datenexploration und Visualisierung:
 
 ## Security
 
-Professionell:
+### Professionelle Security
 
 - **2FA /** RFC 6238? **[Authy](https://authy.com/)** \[**choco install authy-desktop**\] als One-Time Password (OTP) Authenticator
 - **[OpenSSL](https://www.openssl.org/)** \[**choco install openssl.light --ignore-dependencies**\]: Open Source toolkit for SSL/TLS
@@ -599,9 +599,16 @@ Professionell:
 - [Mobile Verification Toolkit (**MVT**)](https://github.com/mvt-project/mvt): Mobile Forensics Tool (für iOS und Android)
   - Kostenlose Alternativen: [Oxygen Forensic Viewer](https://www.oxygen-forensic.com/de/products/free-viewer)
   - Kommerzielle Alternativen: [OpenText EnCase](https://security.opentext.com/encase-forensic), [SFP Pro](https://www.salvationdata.com/business-list-page/smartphone-forensic-system-professional/), […](https://www.computerwoche.de/a/tools-fuer-die-mobile-forensik)
-- Weiterführende Quellen: [Awesome Cybersecurity Blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam) | [Awesome Security](https://github.com/sbilly/awesome-security) | [Awesome Web Security](https://project-awesome.org/qazbnm456/awesome-web-security) | [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) | [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) | [Awesome Embedded and IoT Security](https://project-awesome.org/fkie-cad/awesome-embedded-and-iot-security) | [Awesome Forensics](https://github.com/cugu/awesome-forensics) | [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
+- Weiterführende Quellen: [Awesome Cybersecurity Blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam) | [Awesome Security](https://github.com/sbilly/awesome-security) | [Awesome Web Security](https://project-awesome.org/qazbnm456/awesome-web-security) | [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) | [Awesome Embedded and IoT Security](https://project-awesome.org/fkie-cad/awesome-embedded-and-iot-security) | [Awesome Forensics](https://github.com/cugu/awesome-forensics) | [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
+- **DevSecOps**:
+	- Static Code Analysis Tool: [Checkov](https://github.com/bridgecrewio/checkov)
+	- Container Security: vgl. [Awesome Container Security](https://github.com/kai5263499/awesome-container-security); ausgewähltes Beispiel: Sysdig [Falco](https://sysdig.com/opensource/falco/)
+	- Compliance: [OpenSCAP](https://www.open-scap.org)
+	- Compliance as Code: Chef [InSpec](https://www.chef.io/products/chef-inspec)
+	- Forensics: [Volatility](https://github.com/volatilityfoundation/volatility) | [GRR Rapid Response](https://github.com/google/grr)
+	- Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 
-Persönlich:
+### Persönliche Security
 
 - Passwort-Generator: **[XKPasswd](https://xkpasswd.net/s/)**, integriert in [**KeePass** 2](https://keepass.info/download.html) \[choco install keepass\], etc. pp.
   - Password Cards: [**PasswordCard**.org](https://www.passwordcard.org/) | [Password Cards by Savernova](https://www.savernova.com/en/solutions/secure-password-card/cards) | [Password Cards by helight.com](https://password-cards.helight.dev/)
@@ -638,7 +645,7 @@ Persönlich:
 
 ## Privacy
 
-Professionell:
+### Professionelle Privacy
 
 - **[Anonimatron](https://realrolfje.GitHub.io/anonimatron/)**: Open-Source Data Anonymization
 - **[DataBunker](https://github.com/securitybunker/databunker)**: Open-Source Data Protection Platform
@@ -648,7 +655,7 @@ Professionell:
   - **[TensorFlow Privacy](https://github.com/tensorflow/privacy)**
 - Weiterführende Quellen: [Awesome Privacy Engineering](https://github.com/mplspunk/awesome-privacy-engineering) | [Awesome GDPR](https://github.com/bakke92/awesome-gdpr) #1 | [Awesome GDPR](https://github.com/erichard/awesome-gdpr) #2
 
-Persönlich:
+### Persönliche Privacy
 
 - Open-Source Intelligence (OSINT): [Awesome OSINT](https://github.com/jivoi/awesome-osint)
   - **[Have I been Pwned?](https://haveibeenpwned.com/)**: Check if your email or phone is in a data breach
