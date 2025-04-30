@@ -601,12 +601,12 @@ Datenexploration und Visualisierung:
   - Kommerzielle Alternativen: [OpenText EnCase](https://security.opentext.com/encase-forensic), [SFP Pro](https://www.salvationdata.com/business-list-page/smartphone-forensic-system-professional/), […](https://www.computerwoche.de/a/tools-fuer-die-mobile-forensik)
 - Weiterführende Quellen: [Awesome Cybersecurity Blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam) | [Awesome Security](https://github.com/sbilly/awesome-security) | [Awesome Web Security](https://project-awesome.org/qazbnm456/awesome-web-security) | [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening) | [Awesome Embedded and IoT Security](https://project-awesome.org/fkie-cad/awesome-embedded-and-iot-security) | [Awesome Forensics](https://github.com/cugu/awesome-forensics) | [Awesome Incident Response](https://github.com/meirwah/awesome-incident-response)
 - **DevSecOps**:
-	- Static Code Analysis Tool: [Checkov](https://github.com/bridgecrewio/checkov)
-	- Container Security: vgl. [Awesome Container Security](https://github.com/kai5263499/awesome-container-security); ausgewähltes Beispiel: Sysdig [Falco](https://sysdig.com/opensource/falco/)
-	- Compliance: [OpenSCAP](https://www.open-scap.org)
-	- Compliance as Code: Chef [InSpec](https://www.chef.io/products/chef-inspec)
-	- Forensics: [Volatility](https://github.com/volatilityfoundation/volatility) | [GRR Rapid Response](https://github.com/google/grr)
-	- Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
+  - Static Code Analysis Tool: [Checkov](https://github.com/bridgecrewio/checkov)
+  - Container Security: vgl. [Awesome Container Security](https://github.com/kai5263499/awesome-container-security); ausgewähltes Beispiel: Sysdig [Falco](https://sysdig.com/opensource/falco/)
+  - Compliance: [OpenSCAP](https://www.open-scap.org)
+  - Compliance as Code: Chef [InSpec](https://www.chef.io/products/chef-inspec)
+  - Forensics: [Volatility](https://github.com/volatilityfoundation/volatility) | [GRR Rapid Response](https://github.com/google/grr)
+  - Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 
 ### Persönliche Security
 
