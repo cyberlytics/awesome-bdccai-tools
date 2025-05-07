@@ -39,13 +39,17 @@ Hinweise:
 - [Edge / Fog / IoT](#edge--fog--iot)
 - [dApps](#dapps)
 - [Security](#security)
+  - [Professionelle Security](#professionelle-security)
+  - [Persönliche Security](#personliche-security)
 - [Privacy](#privacy)
+  - [Professionelle Privacy](#professionelle-privacy)
+  - [Persönliche Privacy](#personliche-privacy)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
 - [Footer](#footer)
-	- [Future Work](#future-work)
-	- [Contribute](#contribute)
-	- [Backers](#backers)
-	- [License](#license)
+  - [Future Work](#future-work)
+  - [Contribute](#contribute)
+  - [Backers](#backers)
+  - [License](#license)
 
 <!-- tocstop -->
 
