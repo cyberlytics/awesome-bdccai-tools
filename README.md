@@ -639,7 +639,7 @@ Datenexploration und Visualisierung:
 - Checker:
 	- **[IsLegitSite](https://www.islegitsite.com/)** oder **[ScamAdvisor](https://www.scamadviser.com/)**: Plausibilisieren Sie, ob eine Website legal ist oder ein Betrug, überprüfen Sie den Ruf der Website
 - Betriebssysteme
-	- Desktop: **[Qubes OS](https://www.qubes-os.org/)**
+	- Desktop: **[Qubes OS](https://www.qubes-os.org/)** / [HardenedBSD](https://hardenedbsd.org/content/easy-feature-comparison)
 	- Android: **[GrapheneOS](https://grapheneos.org/)**
 - Sandboxes:
 	- Mail Attachments: **[Dangerzone](https://dangerzone.rocks/)** (inspiriert von [Qubes OS trusted PDF](https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html))
