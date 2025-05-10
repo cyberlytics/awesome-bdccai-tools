@@ -709,7 +709,14 @@ Datenexploration und Visualisierung:
 	- [**tosdr**.org](https://tosdr.org/): Terms of Service Didn't Read
 		- **[AGB Check-Tool](https://www.konsumentenschutz.ch/agb-check/)**: Prüfen Sie, ob Ihre AGB nachteilige Klauseln enthalten
 	- **[Privacy Policy Checker](https://gdprwise.eu/policy-checker/)**: Prüft eine Website-Datenschutzrichtlinie auf Übereinstimmung mit der GDPR-Verordnung
-- E-Mail Accounts: **[Tutanota](https://tutanota.com/)** (aus Hannover, kostenlose 1GB), **[Proton](https://proton.me/mail)** (aus der Schweiz, kostenlose 1GB)
+- E-Mail Accounts (GMail-Exit/M365-Exit):
+	- Empfehlungen: **[Tutanota](https://tutanota.com/)** (aus Hannover, kostenlose 1GB), **[Proton](https://proton.me/mail)** (aus der Schweiz, kostenlose 1GB)
+		- Migration (kostenlos): Cloud-Dienst [OVH Mail Migrator](https://omm.ovh.net/)
+		- Migration (€): [imapsync](https://imapsync.lamiral.info/) als [CLI-Tool](https://github.com/imapsync/imapsync) oder als [Cloud-Dienst](https://imapsync.lamiral.info/X/)
+		- Backups (kostenlos): CLI [OfflineIMAP](https://github.com/OfflineIMAP/offlineimap3)
+		- Backups (€): [Shoviv IMAP Email Backup and Restore](https://www.shoviv.com/imap-backup-and-restore.html) sowie [Advik Email Backup Wizard](https://www.adviksoft.com/email/backup.html) (Obacht: Advik mit Maschinen-gebundener Lizenz!)
+		- Backups ([Linux-only](https://www.linux-magazin.de/ausgaben/2011/05/bitparade/)): [archivemail](https://archivemail.sourceforge.net/), [archiveopteryx](https://archiveopteryx.org/)
+		- (Windows: [lokaler Dovecot IMAP-Server](https://doc.dovecot.org/main/installation/docker.html) per pwsh? `docker run -v "${PWD}:/srv/vmail" -p 143:31143 -p 993:31993 dovecot/dovecot:latest`)
 	- Anonyme Einweg-Mail / 10-Minute-Mail: **[temp-mail.io](https://temp-mail.io/de)** (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/temp-mail/)), [temp-mail.org](https://temp-mail.org/de/), (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/temp-mail-disposable-temporary-email/)), [FakesMail](https://fakesmail.com/de) (Browser-Ext., u.a. [Opera](https://fakesmail.com/de)), [tempr.email](https://tempr.email/) (aus DE, aber ohne Browser-Integration), [uvm.](https://praxistipps.chip.de/wegwerf-email-adressen-diese-anbieter-gibts_1674)
 	- E-Mail-Forwarder: **[ManyMe](https://manyme.com/)** (ohne Browser-Integration), [TrashMail](https://trashmail.com/) (Browser-Ext., u.a. [Opera](https://addons.opera.com/extensions/details/trashmailcom-create-disposable-address/)), etc. pp.
 - Auto-Unsubscribe Newsletter: **[unsubscribe-gmail](https://github.com/labnol/unsubscribe-gmail)**, **[hatchet](https://github.com/AnalogJ/hatchet)**
