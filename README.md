@@ -39,11 +39,11 @@ Hinweise:
 - [Edge / Fog / IoT](#edge--fog--iot)
 - [dApps](#dapps)
 - [Security](#security)
-  - [Professionelle Security](#professionelle-security)
-  - [Persönliche Security](#personliche-security)
+  - [Professional Security](#professional-security)
+  - [Personal Security](#personal-security)
 - [Privacy](#privacy)
-  - [Professionelle Privacy](#professionelle-privacy)
-  - [Persönliche Privacy](#personliche-privacy)
+  - [Professional Privacy](#professional-privacy)
+  - [Personal Privacy](#personal-privacy)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
 - [Footer](#footer)
   - [Future Work](#future-work)
@@ -570,7 +570,7 @@ Datenexploration und Visualisierung:
 
 ## Security
 
-### Professionelle Security
+### Professional Security
 
 - **2FA /** RFC 6238? **[Authy](https://authy.com/)** \[**choco install authy-desktop**\] als One-Time Password (OTP) Authenticator
 - **[OpenSSL](https://www.openssl.org/)** \[**choco install openssl.light --ignore-dependencies**\]: Open Source toolkit for SSL/TLS
@@ -612,7 +612,7 @@ Datenexploration und Visualisierung:
 	- Forensics: [Volatility](https://github.com/volatilityfoundation/volatility) | [GRR Rapid Response](https://github.com/google/grr)
 	- Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 
-### Persönliche Security
+### Personal Security
 
 - Passwort-Generator: **[XKPasswd](https://xkpasswd.net/s/)**, integriert in [**KeePass** 2](https://keepass.info/download.html) \[choco install keepass\], etc. pp.
 	- Password Cards: [**PasswordCard**.org](https://www.passwordcard.org/) | [Password Cards by Savernova](https://www.savernova.com/en/solutions/secure-password-card/cards) | [Password Cards by helight.com](https://password-cards.helight.dev/)
@@ -649,7 +649,7 @@ Datenexploration und Visualisierung:
 
 ## Privacy
 
-### Professionelle Privacy
+### Professional Privacy
 
 - **[Anonimatron](https://realrolfje.GitHub.io/anonimatron/)**: Open-Source Data Anonymization
 - **[DataBunker](https://github.com/securitybunker/databunker)**: Open-Source Data Protection Platform
@@ -659,7 +659,7 @@ Datenexploration und Visualisierung:
 	- **[TensorFlow Privacy](https://github.com/tensorflow/privacy)**
 - Weiterführende Quellen: [Awesome Privacy Engineering](https://github.com/mplspunk/awesome-privacy-engineering) | [Awesome GDPR](https://github.com/bakke92/awesome-gdpr) #1 | [Awesome GDPR](https://github.com/erichard/awesome-gdpr) #2
 
-### Persönliche Privacy
+### Personal Privacy
 
 - Open-Source Intelligence (OSINT): [Awesome OSINT](https://github.com/jivoi/awesome-osint)
 	- **[Have I been Pwned?](https://haveibeenpwned.com/)**: Check if your email or phone is in a data breach
