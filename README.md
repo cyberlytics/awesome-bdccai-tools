@@ -233,7 +233,7 @@ Datenexploration und Visualisierung:
 	- Alternative: **[YugabyteDB](https://www.yugabyte.com/)** \[via [Docker](https://docs.yugabyte.com/preview/quick-start/docker/)\]: Open-source NewSQL; **PostgreSQL**-compatible
 - Scalable **HTAP:** [PingCAP **TiDB**](https://github.com/pingcap/tidb): \[via [Quick Start Guide](https://hub.docker.com/r/pingcap/tidb)\]: Open-source NewSQL (OLTP/HTAP workloads); **MySQL**-compatible; built on a transactional key-value store
 - λ/Lambda-Architektur (Nathan Marz) „**separate** batch vs. speed layer“: klassisch bspw. basierend auf [Apache **Hadoop**](https://hadoop.apache.org/) + [Apache **Storm**](https://storm.apache.org/)
-	- vgl. auch [Twitter **Summingbird**](https://github.com/twitter/summingbird)
+	- vgl. auch [Twitter/𝕏 **Summingbird**](https://github.com/twitter/summingbird)
 - ϰ/Kappa-Architektur (Jay Kreps) „**unified** batch-&speed-layer“: bspw. basierend auf [Apache **Flink**](https://flink.apache.org/)
 	- (Flink hat seinen Urspruch in [Stratosphere](http://stratosphere.eu), einem Projekt dreier deutscher Hochschulen, u.a. von [Prof. Dr. Volker Markl](https://www.bifold.berlin/people/prof-dr-volker-markl.html))
 	- Kappa-Architekturen können auch basieren auf [**Kafka** Streams](https://kafka.apache.org/documentation/streams/), Spark Streaming, Kinesis Data Streams, etc. pp.
@@ -695,14 +695,14 @@ Datenexploration und Visualisierung:
 	- Nennenswert: Mit einem "keine Daten verkaufen" Privacy Statement
 		- **[Cloudflare](https://1.1.1.1/de/)**: extrem hohe Geschwindigkeit; aber trotzdem aus Privacy-Sicht fragwürdig: Obacht vor Anforderungen der US-Administration
 - Alternativen:
-	- Google Search ↦ **[MetaGer](https://metager.org)**
-	- YouTube ↦ **[Invidious](https://invidious.io/)**, [PeerTube](https://joinpeertube.org/), [Odysee](https://odysee.com/)
-	- Twitter ↦ **[Nitter](https://nitter.net/)**, [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/)
-	- Reddit ↦ **[Teddit](https://teddit.net/)**, [Lemmy](https://github.com/LemmyNet/lemmy)
-	- Instagram ↦ [Pixelfed](https://pixelfed.org/)
-	- Facebook ↦ [Diaspora](https://diasporafoundation.org/), [Friendica](https://friendi.ca/)
-	- Spotify/Soundcloud ↦ **[last.fm](https://www.last.fm/)**, [Funkwhale](https://funkwhale.audio/)
-	- Disqus ↦ [Cusdis](https://cusdis.com/)
+	- Google Search » **[MetaGer](https://metager.org)**
+	- YouTube » **[Invidious](https://invidious.io/)**, [PeerTube](https://joinpeertube.org/), [Odysee](https://odysee.com/)
+	- Twitter/𝕏 » **[Nitter](https://nitter.net/)**, [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/)
+	- Reddit » **[Teddit](https://teddit.net/)**, [Lemmy](https://github.com/LemmyNet/lemmy)
+	- Instagram » [Pixelfed](https://pixelfed.org/)
+	- Facebook » [Diaspora](https://diasporafoundation.org/), [Friendica](https://friendi.ca/)
+	- Spotify/Soundcloud » **[last.fm](https://www.last.fm/)**, [Funkwhale](https://funkwhale.audio/)
+	- Disqus » [Cusdis](https://cusdis.com/)
 	- Weiterführende Quelle: [Awesome Alternatives](https://github.com/LinuxCafeFederation/awesome-alternatives/)
 - **[Privacy Badger](https://privacybadger.org/)**: browser extension to block invisible trackers
 - Checker:
