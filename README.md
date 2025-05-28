@@ -33,6 +33,7 @@ Hinweise:
 - [Semantic Web / Knowledge Representation](#semantic-web--knowledge-representation)
 - [Verteilte Systeme](#verteilte-systeme)
 - [Cloud-Computing](#cloud-computing)
+- [DevOps](#devops)
 - [Operations Research (OR) / Optimization](#operations-research-or--optimization)
 - [ML / AI](#ml--ai)
 - [Low-Code / No-Code](#low-code--no-code)
@@ -410,24 +411,14 @@ Datenexploration und Visualisierung:
 		- Rancher **[k3d](https://k3d.io)** \[**choco install k3d**\]: Runs Rancher Lab’s minimal k3s Kubernetes distribution via docker
 		- Rancher **[k3s](https://k3s.io)**: Lightweight Kubernetes, bspw. über [k3sup](https://github.com/alexellis/k3sup) \[**choco install k3sup**\]
 		- **[Rancher Desktop](https://rancherdesktop.io/)** \[**choco install rancher-desktop**\]: Runs Kubernetes and container management on your desktop
+	- Personal K8s / Cookbooks / Awesome Selfhosted
+		- [Funky Penguin's Geek Cookbook](https://geek-cookbook.funkypenguin.co.nz/)
 	- Enterprise Installation
 		- Red Hat **[OKD](https://www.okd.io/)** (OpenShift-basiert)
 		- Rancher **[RKE1](https://rke.docs.rancher.com/)** (Pure-Container-basiert, über [RancherOS](https://github.com/rancher/os), mit Docker als Container Engine) \[**choco install rke**\]
 		- Rancher **[RKE2](https://rancher.com/products/rke)** (Combines RKE1 and K3s; embedded container runtime is containerd)
 - KI-gestütztes Kubernetes-Management:
 	- **[K8sGPT](https://k8sgpt.ai)**: tool for scanning your kubernetes clusters, diagnosing and triaging issues in simple English
-- Kubernetes Deployment (with Package Manager, Dependencies, …):
-	- **[Helm](https://helm.sh)**: Helm Charts help you define, install, and upgrade even the most complex Kubernetes application
-	- **[Acorn](https://www.acorn.io)**: Containerized application packaging framework that simplifies deployment on Kubernetes
-- **HashiCorp** Stack:
-	- **[Vagrant](https://www.vagrantup.com/)** «Build&Test» \[**choco install vagrant**\] & **[Vagrant Cloud Box](https://app.vagrantup.com/boxes/search)**
-	- **[Packer](https://www.packer.io/)** «Package» \[**choco install packer**\]
-	- **[TerraForm](https://www.terraform.io/)** «Unified Provision» \[choco **install terraform**\]
-	- **[Vault](https://www.vaultproject.io/)** «Secure» \[**choco install vault**\]
-	- **[Consul](https://www.consul.io/)** «Connect&Maintain» & **[Consul Tools](https://www.consul.io/docs/download-tools)**
-	- **[Nomad](https://www.nomadproject.io/)** «Orchestrate&Run» \[**choco install nomad**\]
-	- **[Waypoint](https://www.waypointproject.io/)** «Unified Deploy»
-- **[Resilience4j](https://github.com/resilience4j/resilience4j)**: lightweight fault tolerance library inspired by Netflix Hystrix
 - **[Arkade](https://get-arkade.dev/)**: Open Source [Marketplace](https://github.com/alexellis/arkade#catalog-of-apps) for Kubernetes
 - **[Portainer](https://www.portainer.io/)** Community Edition: Open Source Container Management for Personal Use
 - **[cAdvisor](https://github.com/google/cadvisor)**: understand the resource usage and performance characteristics of containers
@@ -448,11 +439,50 @@ Datenexploration und Visualisierung:
 			- Sowie JavaScript/Node.js \[**choco install Node.js**\] v.a. wg. kleiner Lambda bundle size durch Tree-Shaking
 			- Und auch Python \[**choco install python**\] mit erstaunlich geringen Cold-Start-Zeiten
 		- **DONT**: Java, C# (und Vorsicht vor naivem Einsatz von Docker)
-- DevOps (inkl. SRE / Chaos Engineering)? vgl. Schwesterseite [SWE » DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) (!)
 - Green Cloud:
 	- **[Kepler](https://github.com/sustainable-computing-io/kepler)** (=Kubernetes Efficient Power Level Exporter): energiebezogene Systemstatistiken, als Prometheus-Metriken exportierbar
 - Weiterführende Quellen: [Nubenetes](https://nubenetes.com/) / [Nubenetes Other](https://nubenetes.com/other-awesome-lists/) | [Awesome Sysadmin](https://github.com/awesome-foss/awesome-sysadmin) | [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering) | [Awesome AWS](https://github.com/donnemartin/awesome-aws) | [Awesome Serverless](https://github.com/anaibol/awesome-serverless) | [Awesome Lambda Essentials](https://github.com/danteata/awesome-aws-lambda) | [Awesome Lambda Layers](https://github.com/mthenw/awesome-layers)
 - Post-Mortems: **[Kubernetes Failure Stories](https://k8s.af/)**
+
+## DevOps
+
+\[Hier: Cloud-Native! Traditionellere DevOps Ergänzungen: vgl. Schwesterseite [SWE » DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) (!) \]
+
+- **Continuous Integration**
+	- [Awesome CI](https://github.com/ligurio/awesome-ci)
+- **Continuous Delivery**
+	- Cloud-native: **[Spinnaker](https://spinnaker.io)** (auch: GitLab, fluxcd, codefresh, Argo CD, …)
+	- Weiterführende Referenzen: **[Awesome CI and CD](https://github.com/cicdops/awesome-ciandcd)** (und das Thema ist auch in [Awesome CI](https://github.com/ligurio/awesome-ci) tlw. inkludiert)
+- Cloud Automation
+	- Google **[Cloud Operations Sandbox](https://cloud-ops-sandbox.dev)**
+- Kubernetes Deployment (with Package Manager, Dependencies, …):
+	- **[Helm](https://helm.sh)**: Helm Charts help you define, install, and upgrade even the most complex Kubernetes application
+	- **[Acorn](https://www.acorn.io)**: Containerized application packaging framework that simplifies deployment on Kubernetes
+- **HashiCorp** Stack:
+	- **[Vagrant](https://www.vagrantup.com/)** «Build&Test» \[**choco install vagrant**\] & **[Vagrant Cloud Box](https://app.vagrantup.com/boxes/search)**
+	- **[Packer](https://www.packer.io/)** «Package» \[**choco install packer**\]
+	- **[TerraForm](https://www.terraform.io/)** «Unified Provision» \[choco **install terraform**\]
+	- **[Vault](https://www.vaultproject.io/)** «Secure» \[**choco install vault**\]
+	- **[Consul](https://www.consul.io/)** «Connect&Maintain» & **[Consul Tools](https://www.consul.io/docs/download-tools)**
+	- **[Nomad](https://www.nomadproject.io/)** «Orchestrate&Run» \[**choco install nomad**\]
+	- **[Waypoint](https://www.waypointproject.io/)** «Unified Deploy»
+- Open-Source-Alternativen für HashiCorp:
+	- **[OpenTofu](https://opentofu.org/)**: drop-in replacement for Terraform
+- **[Resilience4j](https://github.com/resilience4j/resilience4j)**: lightweight fault tolerance library inspired by Netflix Hystrix
+- Software-Artifact Repository \[Cloud\]:
+	- [JFrog **Artifactory**](https://jfrog.com/artifactory/) (free: 2GB, 5 Users): 
+	- (Traditionelle Varianten auf der [Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
+- Cloud Monitoring:
+	- [OpenTelemetry](https://opentelemetry.io/): Instrumentation and data pipeline, i.e., unified collection for traces, metrics, logs
+	- [Prometheus](https://prometheus.io/): Metrics collection and querying
+	- [Jaeger](https://www.jaegertracing.io/): Distributed Tracing
+- Chaos Engineering:
+	- Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** (retired: [Simian Army](https://github.com/Netflix/SimianArmy)), insbesondere mittels [Spinnaker](https://spinnaker.io) (Continuous Delivery) u.a. für [Kubernetes](https://kubernetes.io) (Orchestrierung/Komposition)
+	- **[Pumba](https://github.com/alexei-led/pumba)**: chaos testing tool for Docker
+	- Chaos für Arme unter Windows (Netzwerk-only): **[clumsy](https://github.com/jagt/clumsy)** \[**choco install clumsy**\]
+- Weiterführende Quellen:
+	- [Awesome SRE Tools](https://github.com/SquadcastHub/awesome-sre-tools), [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering)
+	- (Traditionellere Quellen auf der [Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
 
 ## Operations Research (OR) / Optimization
 
@@ -490,9 +520,10 @@ Datenexploration und Visualisierung:
 	- Multi-modale KI: Google **[Gemini](https://deepmind.google/technologies/gemini/)**
 	- Lokale LLMs / Offline:
 		* **[Msty](https://msty.app/)** ⭐
+		* **[Witsy](https://witsyai.com/)** \[**choco install witsy**\]
 		* **[Xorbits Inference](https://github.com/xorbitsai/inference)** ([OpenAI-equivalent API](https://inference.readthedocs.io/en/stable/user_guide/client_api.html) at http://localhost:9997/v1)
 		* [**Jan**.ai](https://jan.ai/download) (OpenAI-equivalent API at https://localhost:1337)
-		* **[LM Studio](https://lmstudio.ai/)**
+		* **[LM Studio](https://lmstudio.ai/)** \[**choco install lm-studio**\]
 		* **[Open WebUI](https://github.com/open-webui/open-webui)**
 		* [OpenLLM](https://github.com/bentoml/OpenLLM) (pip install openllm; chat UI at http://localhost:3000/chat)
 	- Lokales Text-to-Image:
@@ -558,6 +589,8 @@ Datenexploration und Visualisierung:
 - **[Eclipse IoT Projects](https://iot.eclipse.org/projects/)**: sehr viele Projekte, neben dem weitverbreiteten [Mosquitto](https://projects.eclipse.org/projects/iot.mosquitto) (MQTT) auch [Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds) uvm.
 - **[Eclipse Automotive Projects](https://projects.eclipse.org/projects/automotive)**: bspw. software-defined vehicle (SDV) mittels **[Eclipse Leda](https://projects.eclipse.org/projects/automotive.leda)**
 - **[Yocto Project](https://www.yoctoproject.org/)** (YT): create custom Linux-based systems / custom embedded Linux distributions
+- Cloud-native IoT:
+	- **[ThingsBoard](https://thingsboard.io/)** (Open Source)
 - Weiterführende Quellen: [Awesome IoT & Hybrid](https://project-awesome.org/weblancaster/awesome-IoT-hybrid) | [Awesome Edge Computing](https://github.com/qijianpeng/awesome-edge-computing)
 
 ## dApps
