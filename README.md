@@ -296,7 +296,7 @@ Datenexploration und Visualisierung:
 	- Build and Publish: [PWABuilder](https://www.pwabuilder.com/)
 	- Icon Generator: [miTT PWA Asset Generator](https://mittl-medien.de/pwa-asset-generator)
 - Tools for Web Designers:
-	- Kostenlose Icons/Stock-Fotos/Illustrationen: vgl. Abschnitt **[Bildmaterialien](https://github.com/cyberlytics/awesome-thesis-tools#bildmaterialien)** auf meiner Schwesterseite
+	- Kostenlose Icons/Stock-Fotos/Illustrationen: vgl. Abschnitt **[Bildmaterialien](https://github.com/cyberlytics/awesome-thesis-tools#bildmaterialien)** auf meiner Abschlussarbeiten-Schwesterseite
 	- Werkzeuglisten von speckyboy: [Tools for Web Designers #1](https://speckyboy.com/tiny-little-tools-web-design/), [Tools for Web Designers #2](https://speckyboy.com/tiny-little-web-based-tools-web-designers/), [CSS-Tools](https://speckyboy.com/free-tools-apps-css/)
 	- Usage-Statistiken: [W³Techs](https://w3techs.com/technologies/) (bspw. [PHP-Versions](https://w3techs.com/technologies/details/pl-php), [Wordpress-Versions](https://w3techs.com/technologies/details/cm-wordpress), uvm.)
 	- [**Lorem-Ipsum**-Generatoren](https://loremipsum.io/ultimate-list-of-lorem-ipsum-generators/)
@@ -471,7 +471,7 @@ Datenexploration und Visualisierung:
 - **[Resilience4j](https://github.com/resilience4j/resilience4j)**: lightweight fault tolerance library inspired by Netflix Hystrix
 - Software-Artifact Repository \[Cloud\]:
 	- [JFrog **Artifactory**](https://jfrog.com/artifactory/) (free: 2GB, 5 Users): 
-	- (Traditionelle Varianten auf der [Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
+	- (Traditionelle Varianten auf der [SWE-Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
 - Cloud Monitoring:
 	- [OpenTelemetry](https://opentelemetry.io/): Instrumentation and data pipeline, i.e., unified collection for traces, metrics, logs
 	- [Prometheus](https://prometheus.io/): Metrics collection and querying
@@ -482,7 +482,7 @@ Datenexploration und Visualisierung:
 	- Chaos für Arme unter Windows (Netzwerk-only): **[clumsy](https://github.com/jagt/clumsy)** \[**choco install clumsy**\]
 - Weiterführende Quellen:
 	- [Awesome SRE Tools](https://github.com/SquadcastHub/awesome-sre-tools), [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering)
-	- (Traditionellere Quellen auf der [Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
+	- (Traditionellere Quellen auf der [SWE-Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
 
 ## Operations Research (OR) / Optimization
 
@@ -629,8 +629,8 @@ Datenexploration und Visualisierung:
 - **[ScoutSuite](https://github.com/nccgroup/ScoutSuite)**: multi-cloud security-auditing tool
 - **[snyk](https://app.snyk.io/)** (formerly DeepCode): find and fix vulnerabilities in code and containers
 - **[Trivy](https://github.com/aquasecurity/trivy)**: Versatile Security Scanner (i.a., Container)
-- git-Hygiene (git Secrets Scanning)? vgl. Abschnitt [git](https://github.com/cyberlytics/awesome-software-engineering-tools#git) auf der Schwesterseite (**[TruffleHog](https://github.com/trufflesecurity/trufflehog)**, **[Gitleaks](https://github.com/gitleaks/gitleaks)**, **[GitGuardian](https://www.gitguardian.com/)** , [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/), etc.)
-- Chaos Engineering? vgl. Abschnitt [DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) auf der Schwesterseite (**[Pumba](https://github.com/alexei-led/pumba)**, Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** / [Simian Army](https://github.com/Netflix/SimianArmy), etc.)
+- git-Hygiene (git Secrets Scanning)? vgl. Abschnitt [git](https://github.com/cyberlytics/awesome-software-engineering-tools#git) auf der SWE-Schwesterseite (**[TruffleHog](https://github.com/trufflesecurity/trufflehog)**, **[Gitleaks](https://github.com/gitleaks/gitleaks)**, **[GitGuardian](https://www.gitguardian.com/)** , [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/), etc.)
+- Chaos Engineering? vgl. Abschnitt [DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) auf der SWE-Schwesterseite (**[Pumba](https://github.com/alexei-led/pumba)**, Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** / [Simian Army](https://github.com/Netflix/SimianArmy), etc.)
 - Anti-SQL-Injection: **[sqlmap](https://github.com/sqlmapproject/sqlmap)**
 - **[Autopsy](https://www.autopsy.com/)** \[**choco install autopsy**\]: Forensik-Werkzeug, als GUI für [The Sleuth Kit](https://www.sleuthkit.org/sleuthkit/)
 - [Mobile Verification Toolkit (**MVT**)](https://github.com/mvt-project/mvt): Mobile Forensics Tool (für iOS und Android)
