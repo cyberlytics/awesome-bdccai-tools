@@ -547,6 +547,10 @@ Datenexploration und Visualisierung:
 	- [Iterative](https://dvc.org/) **[DVC](https://dvc.org/)**: Open-source Version Control System for Machine Learning Projects
 	- **[Sacred](https://github.com/IDSIA/sacred)**: A tool to help you configure, organize, log and reproduce experiments
 	- [Apache **Marvin-AI**](https://marvin.apache.org/): Open-Source MLOps Plattform
+- LLMOps / LLM-Plattform / Agentic AI:
+	- **[Dify](https://dify.ai/)**: build, deploy, and manage AI-powered applications
+	- [Coze](https://www.coze.com/): build chatbots and automated virtual assistants
+	- Void, TabbyML, GitHub Copilot and Claude Code.
 - Text Processing
 	- [PyPDF2](https://pypi.org/project/PyPDF2/): convert simple, text-based PDF files into text readable by Python
 	- **[spaCy](https://spacy.io/)**: free, open-source library for advanced Natural Language Processing (NLP) in Python
@@ -568,15 +572,19 @@ Datenexploration und Visualisierung:
 
 ## Low-Code / No-Code
 
-- Low-Code Visual Database: [APITable](https://github.com/apitable/apitable) (WSL2: curl https://apitable.github.io/install.sh | bash)
-- **[DataRobots](https://www.datarobot.com/)**: Low-Code ML; mit einem „[Academic Program](https://www.datarobot.com/education/academic-support-program/)“
-- (€:) [Amazon **SageMaker**](https://aws.amazon.com/de/sagemaker/), allerdings [2 Monate kostenlose Kontingente](https://aws.amazon.com/de/sagemaker/pricing/)
-- Manche zählen **[KNIME](https://www.knime.com/)** \[**choco install knime**\] auch als Low-Code ML Werkzeug
-- **[OutSystems](https://www.outsystems.com/pricing-and-editions/)**: Low-Code Application Building
-- **[Amplication](https://amplication.com/)**: Auto-generates an app based on TypeScript and Node.js (NestJS, Prisma, REST & GraphQL API, React Admin UI)
+- Visual Software Development:
+	- **[OutSystems](https://www.outsystems.com/pricing-and-editions/)**: Low-Code Application Building
+	- **[Amplication](https://amplication.com/)**: Auto-generates an app based on TypeScript and Node.js (NestJS, Prisma, REST & GraphQL API, React Admin UI)
+- Visual Workflow Builder: [n8n](https://docs.n8n.io/hosting/)
+- Visual Database: [APITable](https://github.com/apitable/apitable) (WSL2: curl https://apitable.github.io/install.sh | bash)
+- Visual ML:
+	- **[DataRobots](https://www.datarobot.com/)**: Low-Code ML; mit einem „[Academic Program](https://www.datarobot.com/education/academic-support-program/)“
+	- (€:) [Amazon **SageMaker**](https://aws.amazon.com/de/sagemaker/), allerdings [2 Monate kostenlose Kontingente](https://aws.amazon.com/de/sagemaker/pricing/)
+	- Manche zählen **[KNIME](https://www.knime.com/)** \[**choco install knime**\] auch als Low-Code ML Werkzeug
 - Spezial-Kontext SAP:
 	- SAP **[Build Apps](https://www.sap.com/products/technology-platform/no-code-app-builder/get-started.html)** (ehem. [AppGyver](https://www.appgyver.com); technisch losgelöst von OpenUI5/SAPUI5)
 - Weiterführende Quellen: [Awesome low-code](https://github.com/antdimot/awesome-lowcode) | [Awesome Nocode / Lowcode](https://github.com/valentin-vogel/awesome-nocode-lowcode) | [Mapping the no-code AI landscape](https://levity.ai/blog/no-code-ai-map)
+
 
 ## Edge / Fog / IoT
 
@@ -654,9 +662,12 @@ Datenexploration und Visualisierung:
 	- Report: Hasso-Plattner-Institut **[HPI Identity Checker](https://sec.hpi.de/ilc/)** (einmal pro Tag)
 	- Querying: **[search.0t.rocks](https://search.0t.rocks/)**, [**breachdirectory**.org](https://breachdirectory.org/), (€: [DeHashed](https://www.dehashed.com/), [snusbase.com](https://snusbase.com/), und andere)
 - Anti-Virus: Mehrere [**kostenlose Anti-Virus**-Möglichkeiten](https://www.safetydetectives.com/blog/best-really-free-antivirus-for-windows/), u.a. [**Panda** Free Antivirus](https://www.pandasecurity.com/security-promotion/?reg=DE&campaign=free2007C) \[**choco install pandafreeantivirus**\]
-- **[0patch](https://0patch.com)** \[choco install 0patch\]: micropatches to fix software vulnerabilities in various, even closed source products
-- **[HardeningKitty](https://github.com/0x6d69636b/windows_hardening/)**: supports guidelines from Microsoft, CIS Benchmarks, DoD STIG and BSI SiSyPHuS Win10
-- **[hardentools](https://github.com/securitywithoutborders/hardentools)** \[**choco install hardentools**\]: collection of simple utilities designed to disable a number of "features" exposed by Microsoft Windows
+- Hardening
+	- **[0patch](https://0patch.com)** \[choco install 0patch\]: micropatches to fix software vulnerabilities in various, even closed source products
+	- **[HardeningKitty](https://github.com/0x6d69636b/windows_hardening/)**: supports guidelines from Microsoft, CIS Benchmarks, DoD STIG and BSI SiSyPHuS Win10
+	- **[hardentools](https://github.com/securitywithoutborders/hardentools)** \[**choco install hardentools**\]: collection of simple utilities designed to disable a number of "features" exposed by Microsoft Windows
+	- [Windows-Optimize-Harden-Debloat Script](https://simeononsecurity.com/github/windows-optimize-harden-debloat/) \[**iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex**\]
+	- Firefox: [FireFox-Privacy-Script](https://github.com/simeononsecurity/FireFox-Privacy-Script), [FireFox-STIG-Script](https://github.com/simeononsecurity/FireFox-STIG-Script), [ffprofile](https://ffprofile.com/), [privacytools.io](https://www.privacytools.io/browsers/#about_config), [SimeonOnSecurity: Plugin Recommendations](https://simeononsecurity.ch/recommendations/browser_plugins/)
 - **[Portmaster](https://safing.io/download/)** \[**choco install portmaster**\]: open-source application that puts you back in charge over all your computer's network connections
 - **PGP** / GnuPG? **[gpg4win](https://www.gpg4win.org/)** \[**choco install gpg4win**\], v.a. [Kleopatra](https://apps.kde.org/de/kleopatra/) sowie [GnuPG](https://gnupg.org/), [GpgEX](https://www.openhub.net/p/gpgex), [GPA](https://www.gnupg.org/related_software/gpa/index.html), [GpgOL](https://gpg4win.org/doc/en/gpg4win-compendium_33.html)
 	- E-Mail Encryption: [openpgp.org Übersicht](https://www.openpgp.org/software/)
