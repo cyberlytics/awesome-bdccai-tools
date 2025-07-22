@@ -448,11 +448,11 @@ Datenexploration und Visualisierung:
 
 \[Hier: Cloud-Native! Traditionellere DevOps Ergänzungen: vgl. Schwesterseite [SWE » DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) (!) \]
 
-- **Continuous Integration**
-	- [Awesome CI](https://github.com/ligurio/awesome-ci)
-- **Continuous Delivery**
+- **Continuous Integration** / **Continuous Delivery** (CI/CD)
+	- [Jenkins X](https://jenkins-x.io/): GitOps based Tekton pipelines
+		- Related Book: [The DevOps 2.6 Toolkit: Jenkins X Cloud-Native Kubernetes-First Continuous Delivery](https://github.com/vfarcic/devops26)
 	- Cloud-native: **[Spinnaker](https://spinnaker.io)** (auch: GitLab, fluxcd, codefresh, Argo CD, …)
-	- Weiterführende Referenzen: **[Awesome CI and CD](https://github.com/cicdops/awesome-ciandcd)** (und das Thema ist auch in [Awesome CI](https://github.com/ligurio/awesome-ci) tlw. inkludiert)
+	- Weiterführende Referenzen: [Awesome CI](https://github.com/ligurio/awesome-ci), **[Awesome CI and CD](https://github.com/cicdops/awesome-ciandcd)**
 - Cloud Automation
 	- Google **[Cloud Operations Sandbox](https://cloud-ops-sandbox.dev)**
 - Kubernetes Deployment (with Package Manager, Dependencies, …):
@@ -530,6 +530,9 @@ Datenexploration und Visualisierung:
 		- AUTOMATIC1111 [stable-diffusin-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 		- [Fooocus](https://github.com/lllyasviel/Fooocus)
 		- [CompyUI](https://github.com/comfyanonymous/ComfyUI) ([Tutorial](https://stable-diffusion-art.com/comfyui/))
+	- IT-Security for LLMs:
+		- Hintergrundwissen: [OWASP Top-10 for LLMs](https://genai.owasp.org/llm-top-10/)
+		- [LLM Guard](https://github.com/jujumilk3/leaked-system-prompts)
 	- Weiterführende Quellen: [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
 - ML-Plattformen
 	- Desktop/Self-Hosting:
