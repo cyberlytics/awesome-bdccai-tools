@@ -656,6 +656,11 @@ Datenexploration und Visualisierung:
 	- Forensics: [Volatility](https://github.com/volatilityfoundation/volatility) | [GRR Rapid Response](https://github.com/google/grr)
 	- Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 
+### LLM-Security
+- [OWASP AI Exchange](https://owaspai.org/)
+- [rebuff](https://github.com/protectai/rebuff): protect AI applications from prompt injection
+- [Guardrails AI](https://www.guardrailsai.com/)
+
 ### Personal Security
 
 - Passwort-Generator: **[XKPasswd](https://xkpasswd.net/s/)**, integriert in [**KeePass** 2](https://keepass.info/download.html) \[choco install keepass\], etc. pp.
@@ -817,6 +822,8 @@ Thank you to all our supporters! 🙏
 _Please, consider supporting my work as a lot of effort takes place to generate this list! Thanks a lot._
 
 [![Buy Me A Coffee please!](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://www.buymeacoffee.com/cyberpetaneuron)
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-0070BA?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=QTDJ2JA58ZM9L)
+[![Support on Ko‑fi](https://img.shields.io/badge/Support-Ko–fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/cyberlytics)
 
 ### License
 
