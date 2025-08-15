@@ -263,6 +263,7 @@ Datenexploration und Visualisierung:
 	- Java-zentrisch: **[JHipster](https://start.jhipster.tech/)** ([TechStack-Docu](https://www.jhipster.tech/tech-stack/)) | [**Spring** Initializr](https://start.spring.io/)
 	- Any Lang: [CodebaseShow » **RealWorld**](https://codebase.show/projects/realworld) ⭐ \[[GitHub-Repo](https://github.com/gothinkster/realworld)\] | [**JHipster** Non-Java-Blueprints](https://www.jhipster.tech/modules/official-blueprints/)
 	- JS-zentrisch: [**Meteor**.js](https://www.meteor.com), **[refine](https://github.com/refinedev/refine)**, [SaaS Starterkit](https://github.com/Saas-Starter-Kit/Saas-Kit-prisma) (Next.js)
+	- Docker-zentrisch: [Awesome-LocalStack](https://www.awesome-testing.com/2025/03/comprehensive-local-testing-stack) ([github](https://github.com/slawekradzyminski/awesome-localstack))
 - **[Svelte](https://svelte.dev)** (Client-side) sowie **[SvelteKit](https://kit.svelte.dev)** (Server-side): Newcommer Web-Framework und Alternative zu Angular/React/Vue
 - **[TS Play](https://www.typescriptlang.org/play)**: Online TypeScript Editor/Playground
 - Die [üblichen Verdächtigen](https://insights.stackoverflow.com/survey/2021#section-most-loved-dreaded-and-wanted-web-frameworks) (Client-side):
@@ -521,6 +522,8 @@ Datenexploration und Visualisierung:
 		- Java: **[Spring AI](https://docs.spring.io/spring-ai/reference/)**, **[LongChain4j](https://github.com/langchain4j/langchain4j)**
 	- Chatbots: [**perplexity**.ai](https://www.perplexity.ai/) (mit „Focus: Academic“)
 		- Alternativen: OpenAI [ChatGPT](https://openai.com/blog/chatgpt/), [HuggingChat](https://huggingface.co/chat/), [Andi](https://andisearch.com), Microsoft [Bing](https://bing.com/new), Google [Bard](https://bard.google.com/)
+	- AI-enabled Browser: Perplexity [Comet](https://comet.perplexity.ai/), [Sigma](https://www.sigmabrowser.com/), [Fellou](https://fellou.ai/), Arc [Max](https://arc.net/max), Opera [Aria](https://www.opera.com/de/features/aria), Microsoft Edge+Copilot
+		- Mac-only: [Dia](https://www.diabrowser.com/)
 	- Multi-modale KI: Google **[Gemini](https://deepmind.google/technologies/gemini/)**
 	- Lokale LLMs / Offline:
 		* **[Msty](https://msty.app/)** ⭐
@@ -717,10 +720,25 @@ Datenexploration und Visualisierung:
 
 ### Personal Privacy
 
-- Open-Source Intelligence (OSINT): [Awesome OSINT](https://github.com/jivoi/awesome-osint)
-	- **[Have I been Pwned?](https://haveibeenpwned.com/)**: Check if your email or phone is in a data breach
-	- **[Have I been Trained?](https://haveibeentrained.com/)**: Check if a picture is in an AI model
-- (Personal) Windows Hardening
+- Digital Footprint
+	- Open-Source Intelligence (OSINT): [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+	- **[Have I been Pwned?](https://haveibeenpwned.com/)** ⭐: Check if your email or phone is in a data breach
+	- **[Have I been Trained?](https://haveibeentrained.com/)** ⭐: Check if a picture is in an AI model
+	- Discover: "Username used on which plattform?"
+		- Cloud (free): [WhatsMyName Web](https://whatsmyname.app/), [Namech_k](https://namechk.com/namechk-plugin-search-results/) » Check Usernames
+		- Cloud (€): [sherlockeye.io](https://www.sherlockeye.io/) (very goode UI/UX)
+		- Desktop: **[blackbird](https://github.com/p1ngul1n0/blackbird)** ⭐, [sherlock](https://github.com/sherlock-project/sherlock)
+		- Web/Self-Hosted: [WhatsMyName](https://github.com/WebBreacher/WhatsMyName)
+		- Generic "Delete Account"-URL-Lists: [justdeleteaccount](https://www.justdeleteaccount.com/) ([github](https://github.com/mueller-lukas/justdeleteaccount_com)), US-zentrisch: [accountkiller](https://www.accountkiller.com/en/popular)
+	- Discover: "E-Mail used on which plattform?" (i.a., using the forgotten password function)
+		- Cloud (€): [sherlockeye.io](https://www.sherlockeye.io/)
+		- Desktop: [Holehe](https://github.com/megadose/holehe) ⭐ \[**pip install holehe**\], [blackbird](https://github.com/p1ngul1n0/blackbird)
+	- Data Privacy Management / DSGVO-Anfragen und -Löschantrag
+		- Open Source: [Data Requests Generator](https://www.datarequests.org/generator/) ([Open Source](https://www.datarequests.org/open-source/))
+		- Juristisch: [Privacy ReClaim](https://www.privacyreclaim.com/)
+		- Abo: (€) [Mine](https://www.saymine.com/mineapp)
+		- Anti-Data-Broker (€): **[Incogni](https://incogni.com/)** ⭐, [DeleteMe](https://joindeleteme.com/), [IDX Consumer Protection](https://www.idx.us/privacy-identity-protection) (iOS-only: [Kanary](https://www.thekanary.com/))
+- Windows Prisvacy Hardening
 	- **[WPD](https://wpd.app/)**: Windows Privacy Dashboard ⭐ \[choco install wpd\], einfache Deaktivierung der Windows-Telemetrie, Verwendende Level "Standard"
 	- **[toptout](https://github.com/beatcracker/toptout)**: Anti-Telemetry für eine Unzahl an Applikationen und Diensten, jenseits von Windows-per-se
 		```powershell
@@ -729,13 +747,18 @@ Datenexploration und Visualisierung:
 		```
 	- **[privacy.sexy](https://privacy.sexy/)** ⭐: per CMD-Script-Ausführung, Verwendende Level "Standard"
 		- Für Fortgeschrittene: **[W10Privacy](https://www.w10privacy.de/)** \[choco install w10privacy\]
-- (Personal) Mobile Phone hardening
+- Mobile Phone Privacy Hardening
 	- Android: [Techlore Video](https://www.youtube.com/watch?v=dMWEym0KPcA)
 		- To be considered: [GrapheneOS](https://grapheneos.org/), [CalyxOS](https://calyxos.org/)
 	- Apple: [The Ultimate iOS Hardening Guide](https://github.com/iAnonymous3000/iOS-Hardening-Guide) | [Techlore Video](https://www.youtube.com/watch?v=d2bJVKcIEg0)
-- **[PrivaZer](https://privazer.com/)** \[**choco install privazer.install**\]: Free PC cleaner & Privacy tool that cleans unwanted traces
-- **[eBlocker](https://eblocker.org/)**: (Personal) Web Privacy Protection
-- **[Tor Browser](https://www.torproject.org/download/)** \[**choco install tor-browser**\]: explore the internet with privacy
+- Windows Privacy Cleansing
+	- **[PrivaZer](https://privazer.com/)** \[**choco install privazer.install**\]: Free PC cleaner & Privacy tool that cleans unwanted traces
+- Web Privacy Protection
+	- Anti-Tracker:
+		- Browser: **[Privacy Badger](https://privacybadger.org/)**
+		- Router: **[eBlocker](https://eblocker.org/)**
+		- DNS: siehe folgenden Abschnitt DNS » Anti-Ads/Trackers
+	- **[Tor Browser](https://www.torproject.org/download/)** \[**choco install tor-browser**\]: explore the internet with privacy
 - DNS: Orthogonale Aspekte 1) Verschlüsseltes DNS, 2) No-Logging und 3) Anti-Ads/Trackers
 	- Performance-Kontrolle: [DNSPerf](https://www.dnsperf.com/#!dns-resolvers)
 	- Verschlüsseltes DNS:
@@ -750,7 +773,7 @@ Datenexploration und Visualisierung:
 	- (Die Anti-Malware DNS Server sind oben bei Security)
 	- Nennenswert: Mit einem "keine Daten verkaufen" Privacy Statement
 		- **[Cloudflare](https://1.1.1.1/de/)**: extrem hohe Geschwindigkeit; aber trotzdem aus Privacy-Sicht fragwürdig: Obacht vor Anforderungen der US-Administration
-- Alternativen:
+- Dienst-Alternativen:
 	- Google Search » **[MetaGer](https://metager.org)**
 	- YouTube » **[Invidious](https://invidious.io/)**, [PeerTube](https://joinpeertube.org/), [Odysee](https://odysee.com/)
 	- Twitter/𝕏 » **[Nitter](https://nitter.net/)**, [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/)
@@ -760,8 +783,7 @@ Datenexploration und Visualisierung:
 	- Spotify/Soundcloud » **[last.fm](https://www.last.fm/)**, [Funkwhale](https://funkwhale.audio/)
 	- Disqus » [Cusdis](https://cusdis.com/)
 	- Weiterführende Quelle: [Awesome Alternatives](https://github.com/LinuxCafeFederation/awesome-alternatives/)
-- **[Privacy Badger](https://privacybadger.org/)**: browser extension to block invisible trackers
-- Checker:
+- Policy-Checker:
 	- [**tosdr**.org](https://tosdr.org/): Terms of Service Didn't Read
 		- **[AGB Check-Tool](https://www.konsumentenschutz.ch/agb-check/)**: Prüfen Sie, ob Ihre AGB nachteilige Klauseln enthalten
 	- **[Privacy Policy Checker](https://gdprwise.eu/policy-checker/)**: Prüft eine Website-Datenschutzrichtlinie auf Übereinstimmung mit der GDPR-Verordnung
@@ -779,9 +801,6 @@ Datenexploration und Visualisierung:
 	- (Im Kontext eines Gmail-Accounts benötigen praktisch alle Werkzeuge, außer unsubscribe-gmail, eine aktive [2FA](https://myaccount.google.com/security) des Gmail-Kontos)
 	- Kostenbehaftete aber empfehlenswerte Alternative (€): **[Leave Me Alone](https://leavemealone.app/)**
 	- Kostenlose Alternativen, aber diese Werkzeuge selbst sind DSGVO-problematisch (Dienstleister kriegt Zugang zum Konto und erhebt Statistiken, welche vermarktet werden): [Unroll.me](https://unroll.me/), [Cleanfox](https://www.cleanfox.io/) \[Eigentlich ist nur deren Namen zu kennen wichtig, dadurch kann man per MetaGer-Suche nach ­­­Alternativen zu Unroll.me suchen und dann so etwas wie Leave Me Alone finden…\]­
-- Data Privacy Management
-	- Werkzeuge, welche Data Broker kontaktieren und ihnen Lösch-Aufforderungen schicken
-	- (€) Anbieter: [Incogni](https://www.cloudwards.net/goto/62358/), [DeleteMe](https://www.cloudwards.net/go/deleteme/), [IDX](https://www.idx.us/), [Kanary](https://www.thekanary.com/)
 - Free Space Cleaner
 	- **[sdelete](https://docs.microsoft.com/en-us/sysinternals/downloads/sdelete)** \[**choco install sdelete --version=1.61.0.20160210**\]: Sicheres Löschen von Dateien
 		- (ich empfehle die Version 1.61; aber Obacht: die Parameter-Semantik hat sich zur 2.0 geändert, in 1.61 wird „-c“ für „zero free space“ verwendet bspw. „sdelete -c C: -nobanner“)
