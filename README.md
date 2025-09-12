@@ -45,6 +45,7 @@ Hinweise:
 - [dApps](#dapps)
 - [Security](#security)
   - [Professional Security](#professional-security)
+  - [LLM-Security](#llm-security)
   - [Personal Security](#personal-security)
 - [Privacy](#privacy)
   - [Professional Privacy](#professional-privacy)
@@ -402,6 +403,7 @@ Datenexploration und Visualisierung:
 	- (Es gibt noch eine Lücke: Gibt es einen guten [.](https://codefresh.io/blog/not-ignore-dockerignore-2/)[dockerignore](https://codefresh.io/blog/not-ignore-dockerignore-2/)-Generator!?)
 	- **[Divio](https://www.divio.com/pricing/)** | **[Northflank](https://northflank.com/pricing)** | **[mogenius](https://mogenius.com/pricing)**: kostenlose Deployments für Docker-basierte Proof-of-Concept WebApps
 	- Letzte Version bspw. von [Alpine](https://endoflife.date/alpine)? Bspw. mittels [**endoflife**.date](https://endoflife.date/) (EOL)
+	- Nennswert: [dockur](https://github.com/dockur), bspw. [Windows in Docker](https://github.com/dockur/windows), [MacOS in Docker](https://github.com/dockur/macos))
 - Container Registry:
 	- DockerHub ➔ **docker.io**/username/appname:tagname
 	- Git Hub **GHCR** ➔ **ghcr.io**/username/appname:tagname
