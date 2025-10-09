@@ -38,7 +38,7 @@ Hinweise:
 - [Verteilte Systeme](#verteilte-systeme)
 - [Cloud-Computing](#cloud-computing)
 - [DevOps](#devops)
-- [Operations Research (OR) / Optimization](#operations-research-or--optimization)
+- [Operations Research / Optimization](#operations-research--optimization)
 - [ML / AI](#ml--ai)
 - [Low-Code / No-Code](#low-code--no-code)
 - [Edge / Fog / IoT](#edge--fog--iot)
@@ -174,10 +174,15 @@ Datenexploration und Visualisierung:
 
 ## Data Science
 
-- **[KNIME](https://www.knime.com/)** \[**choco install knime**\]
-- **[RapidMiner](https://rapidminer.com/platform/)** for Academics mit [Educational License Program](https://rapidminer.com/platform/educational/) \[**choco install rapidminer**\]
-	- (im Kern ist [RapidMiner Studio auch Open Source](https://github.com/rapidminer/rapidminer-studio))
-- Interactive Computing / Notebooks
+- Data Mining / Statistical Spreadsheets
+	- **[KNIME](https://www.knime.com/)** \[**choco install knime**\]
+	- **[RapidMiner](https://rapidminer.com/platform/)** for Academics mit [Educational License Program](https://rapidminer.com/platform/educational/) \[**choco install rapidminer**\]
+		- (im Kern ist [RapidMiner Studio auch Open Source](https://github.com/rapidminer/rapidminer-studio))
+	- **[JASP](https://jasp-stats.org/)** \[**choco install jasp**\]
+	- **[Jamovi Desktop](https://www.jamovi.org/features.html)** \[**choco install jamovi**\] sowie **[Jamovi Cloud](https://cloud.jamovi.org/)**
+	- [SOFA Statistics](https://www.sofastatistics.com/features.php)
+	- Posit [R Studio](https://posit.co/products/open-source/rstudio/) \[choco install r.studio\] bzw. [Tinn-R](https://tinn-r.org/en/) \[choco install tinn-r\]
+- Interactive Computing / Interactive Notebooks
 	- [**Juyter** Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) \[**docker run -p 8888:8888 jupyter/scipy-notebook**\]
 		- **[binder](https://mybinder.org/)**: das Cloud-Bindeglied zwischen Jupyter und Ihren git-gehosteten Notebook-Dateien (Obacht: Wenn in den USA die Leute aufstehen, dann geht der globally-shared Infrastruktur von binder ggf. die Puste aus, daher ggf. nicht ausreichend zuverlässig für Lehrveranstaltungen oder Konferenz-Demos)
 	- **[CoCalc](https://cocalc.com/)**: Collaborative Computation and Data Science
@@ -185,6 +190,7 @@ Datenexploration und Visualisierung:
 	- **[SQL Notebook](https://sqlnotebook.com/)** \[**choco install sqlnotebook**\]
 		- Alternative: **[Tad](https://www.tadviewer.com/)** \[**choco install tad**\]
 	- [Google **Collab**](https://colab.research.google.com/) Notebook
+	- Posit [Positron](https://posit.co/products/ide/positron/)
 - Visualisierungen:
 	- [VersaTiles](https://versatiles.org/): Geodaten
 	- Weiterführende Referenzen: [Awesome Dataviz](https://github.com/hal9ai/awesome-dataviz), [Awesome Geospatial](https://github.com/sacridini/Awesome-Geospatial), [Awesome Big Data » Data Visualization](https://github.com/oxnr/awesome-bigdata?tab=readme-ov-file#data-visualization)
@@ -234,7 +240,9 @@ Datenexploration und Visualisierung:
 	- **Couchbase** Server: [Community Edition (CE)](https://developer.couchbase.com/tutorial-getting-started-with-couchbase-ce) \[docker run -itd --name couchbase-server -p 8091-8094:8091-8094 -p 11210:11210 couchbase:community\]
 	- **neo4j**: [Desktop](https://neo4j.com/deployment-center/?desktop-gdb) or [Graph Database Self-Managed » Community](https://neo4j.com/deployment-center/?gdb-selfmanaged)
 - Scalable **OLAP: [EXASOL](https://www.exasol.com/product-overview/)** (→ s.oben!): Closed-Source MPP-fähiges und In-Memory-basiertes ACID-konformes RDBMS (MPP-DBMS; OLAP workloads); für analytische Anwendungen wie BI/DWH, DSS und Data Science; sehr hohe SQL-Standard-Kompatibilität und hohe Oracle-SQL-Dialekt-Kompatibilität
-	- Alternative: (€) **[Snowflake](https://www.snowflake.com/pricing/)** als Cloud-native DWaaS
+- Cloud-native DWaaS / Data Lakehouse:
+	- (€) **[Snowflake](https://www.snowflake.com/pricing/)**
+	- **[Databricks](https://docs.databricks.com/aws/en/getting-started/overview)**, auch als [Free Edition](https://www.databricks.com/learn/free-edition)
 - Scalable **OLTP: [CockroachDB](https://www.cockroachlabs.com/product/)** \[via [Docker](https://www.cockroachlabs.com/docs/v22.1/install-cockroachdb-windows)\]: Open-Source NewSQL; **PostgreSQL**-compatible; built on a transactional and strongly-consistent key-value store
 	- Alternative: **[YugabyteDB](https://www.yugabyte.com/)** \[via [Docker](https://docs.yugabyte.com/preview/quick-start/docker/)\]: Open-source NewSQL; **PostgreSQL**-compatible
 - Scalable **HTAP:** [PingCAP **TiDB**](https://github.com/pingcap/tidb): \[via [Quick Start Guide](https://hub.docker.com/r/pingcap/tidb)\]: Open-source NewSQL (OLTP/HTAP workloads); **MySQL**-compatible; built on a transactional key-value store
@@ -288,16 +296,18 @@ Datenexploration und Visualisierung:
 - Spezial-Kontext WebAssembly:
 	- **[wasmtime](https://wasmtime.dev)**: fast and secure runtime for WebAssembly
 - Markdown Tools: vgl. [Awesome **Markdown**](https://github.com/mundimark/awesome-markdown)
+	- Fast Markdown Viewer (⭐) **[MarkText](https://github.com/marktext/marktext)** \[**choco install marktext.install**\] (als Editor nicht ganz so gut)
+	- Markdown Editor (⭐) **[Obsidian](https://obsidian.md/)** \[**choco install obsidian**\] (Verzeichnis als Vault öffnen…) sowie 
+		- Hilfreich: **[ObisdianShell](https://github.com/Chaoses-Ib/ObsidianShell)** (Associate Markdown files with Obsidian)
+		- Nennenswerte Plugins: [MK's Guide **Empfehlungsliste**](https://www.mksguide.com/best-obsidian-plugins/), [obsidian-**advanced-uri**](https://github.com/Vinzent03/obsidian-advanced-uri), [obsidian-**languagetool**-plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin)
+		- Historischer Hinweis: Typora nicht mehr kostenlos nach 0.11.18
+	- Fast Markdown Viewer:  (ist außerdem 
 - Tools for Web Programmer:
 	- Browserkompatibilität: **[Can I use](https://caniuse.com/)**
 	- Generatoren: **[favic-o-matic](https://favicomatic.com/)** favicon Generator, [**.htaccess**](https://www.htaccessredirect.net/) Generator, **[JQueryForm](https://www.jqueryform.com/)** Form Builder, [Flexy Boxes](https://the-echoplex.net/flexyboxes/)
 	- [HTML **Cleaner**](https://html-cleaner.com/) (auch für [CSS](https://html-cleaner.com/css/) und [JS](https://html-cleaner.com/js/)) sowie HTML Beautifier **[DirtyMarkup](https://www.10bestdesign.com/dirtymarkup/)**
 	- URLs: [URL-Decoder](https://www.urldecoder.org/)
 	- [List of (free) **Public APIs**](https://github.com/public-apis/public-apis)
-	- Markdown Editoren: **[Obsidian](https://obsidian.md/)** \[**choco install obsidian**\] (Verzeichnis als Vault öffnen…)
-		- Hilfreich: **[ObisdianShell](https://github.com/Chaoses-Ib/ObsidianShell)** (Associate Markdown files with Obsidian)
-		- Nennenswerte Plugins: [MK's Guide **Empfehlungsliste**](https://www.mksguide.com/best-obsidian-plugins/), [obsidian-**advanced-uri**](https://github.com/Vinzent03/obsidian-advanced-uri), [obsidian-**languagetool**-plugin](https://github.com/Clemens-E/obsidian-languagetool-plugin)
-		- Historischer Hinweis: Typora nicht mehr kostenlos nach 0.11.18
 - Tools für PWAs:
 	- Build and Publish: [PWABuilder](https://www.pwabuilder.com/)
 	- Icon Generator: [miTT PWA Asset Generator](https://mittl-medien.de/pwa-asset-generator)
@@ -491,7 +501,9 @@ Datenexploration und Visualisierung:
 	- [Awesome SRE Tools](https://github.com/SquadcastHub/awesome-sre-tools), [Awesome Chaos Engineering](https://github.com/dastergon/awesome-chaos-engineering)
 	- (Traditionellere Quellen auf der [SWE-Schwesterseite](https://github.com/cyberlytics/awesome-software-engineering-tools#devops))
 
-## Operations Research (OR) / Optimization
+## Operations Research / Optimization
+
+\[Operations Research wird als OR abgekürzt; OR wird klassisch in der Wirtschaftsinformatik verortet; Optimierungsprobleme werden OR untergeordnet\]
 
 - Überblick/Werkzeuge-Einstieg
 	- Werkzeuge: Newsletter **[OPTIMA 103](http://www.mathopt.org/Optima-Issues/optima103.pdf)** der Mathematical Optimization Society
@@ -587,6 +599,10 @@ Datenexploration und Visualisierung:
 - Visual Software Development:
 	- **[OutSystems](https://www.outsystems.com/pricing-and-editions/)**: Low-Code Application Building
 	- **[Amplication](https://amplication.com/)**: Auto-generates an app based on TypeScript and Node.js (NestJS, Prisma, REST & GraphQL API, React Admin UI)
+	- [Mendix](https://www.mendix.com/): model-driven development platform for large-scale projects, 
+	- [Appian](https://appian.com/): process automation and workflow management RAD platform
+	- [Zoho Creator](https://www.zoho.com/creator/): user-friendly tools like drag-and-drop form builders, workflow automation, and service integration
+	- uvm.
 - Visual Workflow Builder: [n8n](https://docs.n8n.io/hosting/)
 - Visual Database: [APITable](https://github.com/apitable/apitable) (WSL2: curl https://apitable.github.io/install.sh | bash)
 - Visual ML:
@@ -625,34 +641,51 @@ Datenexploration und Visualisierung:
 
 ### Professional Security
 
-- **2FA /** RFC 6238? **[Authy](https://authy.com/)** \[**choco install authy-desktop**\] als One-Time Password (OTP) Authenticator
-- **[OpenSSL](https://www.openssl.org/)** \[**choco install openssl.light --ignore-dependencies**\]: Open Source toolkit for SSL/TLS
-- **[KeyStore Explorer](https://keystore-explorer.org/)** \[**choco install keystore-explorer.portable**\]: handle various X.509 certificates and KeyStore types (PKCS#12, BKS, UBER, JKS, JCEKS)
-- **[Certify the Web](https://certifytheweb.com/)** \[**choco install certifytheweb --ignore-dependencies**\]: Easily manage SSL/TLS certificates from letsencrypt.org and other ACME Certificate Authorities
-- User Authentication Platforms: [Überblicksartikel zu **Auth0** sowie **Firebase** Alternativen](https://geekflare.com/user-authentication-platforms/)
-- **[Wireshark](https://www.wireshark.org/)** \[**choco install wireshark**\]: Open Source Network Packet Analysis
-- **[nmap](https://nmap.org/)** \[**choco install nmap**\]: Open Source Network Scanning and Auditing
-- **[Password4j](https://password4j.com)**: fluent cryptographic Java library for passwords
-- Passwort-Listen: [**SecList**-Sammlung](https://github.com/danielmiessler/SecLists) | [**SkullSecurity**-Sammlung](https://www.skullsecurity.org/wiki/Passwords) | [**haveibeenowned**-Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader) | [weitere…](https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/)
+- Zertifikate
+	- **2FA /** RFC 6238? **[Authy](https://authy.com/)** \[**choco install authy-desktop**\] als One-Time Password (OTP) Authenticator
+	- **[OpenSSL](https://www.openssl.org/)** \[**choco install openssl.light --ignore-dependencies**\]: Open Source toolkit for SSL/TLS
+	- **[KeyStore Explorer](https://keystore-explorer.org/)** \[**choco install keystore-explorer.portable**\]: handle various X.509 certificates and KeyStore types (PKCS#12, BKS, UBER, JKS, JCEKS)
+	- **[Certify the Web](https://certifytheweb.com/)** \[**choco install certifytheweb --ignore-dependencies**\]: Easily manage SSL/TLS certificates from letsencrypt.org and other ACME Certificate Authorities
+	- User Authentication Platforms: [Überblicksartikel zu **Auth0** sowie **Firebase** Alternativen](https://geekflare.com/user-authentication-platforms/)
+- Passwörter
+	- **[Password4j](https://password4j.com)**: fluent cryptographic Java library for passwords
+	- Passwort-Listen: [**SecList**-Sammlung](https://github.com/danielmiessler/SecLists) | [**SkullSecurity**-Sammlung](https://www.skullsecurity.org/wiki/Passwords) | [**haveibeenowned**-Downloader](https://github.com/HaveIBeenPwned/PwnedPasswordsDownloader) | [weitere…](https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/)
+- Netzwerk Basics
+	- **[Wireshark](https://www.wireshark.org/)** \[**choco install wireshark**\]: Open Source Network Packet Analysis
+	- **[nmap](https://nmap.org/)** \[**choco install nmap**\]: Open Source Network Scanning and Auditing
+- Vulnerability Assessment im Netzwerk
+	- Tenable [**Nessus** Essentials](https://www.tenable.com/products/nessus/nessus-essentials) (kostenlos für 16 IPs)
+		- Sowie für Studierende und Dozenten die Option: [Tenable Essentials for Education](https://www.tenable.com/tenable-for-education)
+		- Alternative: [OpenVAS](https://openvas.org)
 - **[Hack the Box](https://www.hackthebox.com/)**: kostenloser Cloud-basierter Hacking Playground
-- Tenable [**Nessus** Essentials](https://www.tenable.com/products/nessus/nessus-essentials) (kostenlos für 16 IPs): Vulnerability Assessment im Netzwerk
-	- Sowie für Studierende und Dozenten die Option: [Tenable Essentials for Education](https://www.tenable.com/tenable-for-education)
-	- Alternative: [OpenVAS](https://openvas.org)
-- [Security Technical Implementation Guides (**STIGs**)](https://public.cyber.mil/stigs/): a configuration standard consisting of security requirements for a specific product
-	- [SCC SCAP-Automation-Tool](https://public.cyber.mil/stigs/scap/) \[**choco install scap-compliance-checker**\], sowie STIG-Dateien 1) für [automatisierte Ausführung (SCAP)](https://public.cyber.mil/stigs/scap/) und 2) [manuelle Ausführung (Document Library)](https://public.cyber.mil/stigs/downloads/) sowie [STIG Viewer](https://public.cyber.mil/stigs/srg-stig-tools/) \[**choco install stigviewer**\]
-- Threat Modeling: OWASP **[Threat Dragon](https://owasp.org/www-project-threat-dragon/)** | Microsoft [Threat Modelling Tool (**TMT**)](https://aka.ms/threatmodelingtool)
-- [**BurpSuite** Community Edition](https://portswigger.net/burp/communitydownload) \[**choco install burp-suite-free-edition**\]: web security testing
-- **[Nikto2](https://cirt.net/Nikto2)**: Open source suite for comprehensive tests against web servers
-- **[Puma Scan](https://github.com/pumasecurity/puma-scan)**: secure code analysis tool for .NET Core projects
-- **[Security Code Scan](https://security-code-scan.GitHub.io/)**: Detects various security vulnerability patterns in .NET Core projects
-- **[Docker Bench Security](https://github.com/docker/docker-bench-security)**: script that checks for dozens of common best-practices
-- **[ScoutSuite](https://github.com/nccgroup/ScoutSuite)**: multi-cloud security-auditing tool
-- **[snyk](https://app.snyk.io/)** (formerly DeepCode): find and fix vulnerabilities in code and containers
-- **[Trivy](https://github.com/aquasecurity/trivy)**: Versatile Security Scanner (i.a., Container)
-- git-Hygiene (git Secrets Scanning)? vgl. Abschnitt [git](https://github.com/cyberlytics/awesome-software-engineering-tools#git) auf der SWE-Schwesterseite (**[TruffleHog](https://github.com/trufflesecurity/trufflehog)**, **[Gitleaks](https://github.com/gitleaks/gitleaks)**, **[GitGuardian](https://www.gitguardian.com/)** , [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/), etc.)
-- Chaos Engineering? vgl. Abschnitt [DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) auf der SWE-Schwesterseite (**[Pumba](https://github.com/alexei-led/pumba)**, Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** / [Simian Army](https://github.com/Netflix/SimianArmy), etc.)
+- Threat Modeling
+	- OWASP **[Threat Dragon](https://owasp.org/www-project-threat-dragon/)**
+	- Microsoft Threat Modelling Tool **[TMT](https://aka.ms/threatmodelingtool)**
+- Configuration Scanner & Baseline Product Security Requirements
+	- Genauer: Configuration Scanner for HW/OS/SW (⊆ Security Risk Assessment) and Checklists/Requirements for Secure Configuration Standards (⊆ Hardening ⊆ Risk Mitigation)
+	- [Security Technical Implementation Guides (**STIGs**)](https://public.cyber.mil/stigs/): a configuration standard consisting of security requirements for a specific product
+		- STIG-Dateien 1) für [automatisierte Ausführung (**SCAP**)](https://public.cyber.mil/stigs/scap/) und 2) [manuelle Ausführung (Document Library)](https://public.cyber.mil/stigs/downloads/)
+		- STIGS-Werkzeug: SCAP Compliance Checker **[SCC](https://public.cyber.mil/stigs/scap/)** \[**choco install scap-compliance-checker**\]
+		- **[STIG Viewer](https://public.cyber.mil/stigs/srg-stig-tools/)** \[**choco install stigviewer**\]
+- Pen Testing
+	- [**BurpSuite** Community Edition](https://portswigger.net/burp/communitydownload) \[**choco install burp-suite-free-edition**\]: web security testing
+	- **[Nikto2](https://cirt.net/Nikto2)**: Open source suite for comprehensive tests against web servers
 - Anti-SQL-Injection: **[sqlmap](https://github.com/sqlmapproject/sqlmap)**
-- **[Autopsy](https://www.autopsy.com/)** \[**choco install autopsy**\]: Forensik-Werkzeug, als GUI für [The Sleuth Kit](https://www.sleuthkit.org/sleuthkit/)
+- Code Scanner
+	- **[Puma Scan](https://github.com/pumasecurity/puma-scan)**: secure code analysis tool for .NET Core projects
+	- **[Security Code Scan](https://security-code-scan.GitHub.io/)**: Detects various security vulnerability patterns in .NET Core projects
+	- **[snyk](https://app.snyk.io/)** (formerly DeepCode): find and fix vulnerabilities in code and containers
+- Container Scanner
+	- **[Trivy](https://github.com/aquasecurity/trivy)**: Versatile Security Scanner (i.a., Container)
+	- **[Docker Bench Security](https://github.com/docker/docker-bench-security)**: script that checks for dozens of common best-practices
+- Cloud Configuration Scanner
+	- **[ScoutSuite](https://github.com/nccgroup/ScoutSuite)**: multi-cloud security-auditing tool
+- git-Hygiene (git Secrets Scanning)? vgl. Abschnitt [git](https://github.com/cyberlytics/awesome-software-engineering-tools#git) auf der SWE-Schwesterseite
+	- (verkürzte Kopie: **[TruffleHog](https://github.com/trufflesecurity/trufflehog)**, **[Gitleaks](https://github.com/gitleaks/gitleaks)**, **[GitGuardian](https://www.gitguardian.com/)** , [**BFG** Repo-Cleaner](https://rtyley.GitHub.io/bfg-repo-cleaner/), etc.)
+- Chaos Engineering? vgl. Abschnitt [DevOps](https://github.com/cyberlytics/awesome-software-engineering-tools#devops) auf der SWE-Schwesterseite
+	- (verkürzte Kopie: **[Pumba](https://github.com/alexei-led/pumba)**, Netflix **[Chaos Monkey](https://github.com/netflix/chaosmonkey)** / [Simian Army](https://github.com/Netflix/SimianArmy), etc.)
+- Forensik:
+	- **[Autopsy](https://www.autopsy.com/)** \[**choco install autopsy**\]: Forensik-Werkzeug, als GUI für [The Sleuth Kit](https://www.sleuthkit.org/sleuthkit/)
 - [Mobile Verification Toolkit (**MVT**)](https://github.com/mvt-project/mvt): Mobile Forensics Tool (für iOS und Android)
 	- Kostenlose Alternativen: [Oxygen Forensic Viewer](https://www.oxygen-forensic.com/de/products/free-viewer)
 	- Kommerzielle Alternativen: [OpenText EnCase](https://security.opentext.com/encase-forensic), [SFP Pro](https://www.salvationdata.com/business-list-page/smartphone-forensic-system-professional/), […](https://www.computerwoche.de/a/tools-fuer-die-mobile-forensik)
@@ -666,7 +699,7 @@ Datenexploration und Visualisierung:
 	- Weiterführende Quellen: [Awesome DevSecOps](https://project-awesome.org/TaptuIT/awesome-devsecops) | [Awesome Container Security](https://github.com/kai5263499/awesome-container-security) | [Kubernetes Security](https://kubernetes-security.info/) | [Open Source Tools for AWS Security](https://github.com/toniblyx/my-arsenal-of-aws-security-tools)
 
 ### LLM-Security
-- [OWASP AI Exchange](https://owaspai.org/)
+- OWASP [AI Exchange](https://owaspai.org/)
 - [rebuff](https://github.com/protectai/rebuff): protect AI applications from prompt injection
 - [Guardrails AI](https://www.guardrailsai.com/)
 
@@ -678,13 +711,26 @@ Datenexploration und Visualisierung:
 	- Kontinuierliches Monitoring: Troy Hunt **[Have I Been Pwned](https://haveibeenpwned.com/)**, Firefox **[Monitor](https://monitor.mozilla.org/)**
 	- Report: Hasso-Plattner-Institut **[HPI Identity Checker](https://sec.hpi.de/ilc/)** (einmal pro Tag)
 	- Querying: **[search.0t.rocks](https://search.0t.rocks/)**, [**breachdirectory**.org](https://breachdirectory.org/), (€: [DeHashed](https://www.dehashed.com/), [snusbase.com](https://snusbase.com/), und andere)
-- Anti-Virus: Mehrere [**kostenlose Anti-Virus**-Möglichkeiten](https://www.safetydetectives.com/blog/best-really-free-antivirus-for-windows/), u.a. [**Panda** Free Antivirus](https://www.pandasecurity.com/security-promotion/?reg=DE&campaign=free2007C) \[**choco install pandafreeantivirus**\]
-- Hardening
+- Anti-Virus: Mehrere [**kostenlose Anti-Virus**-Möglichkeiten](https://www.safetydetectives.com/blog/best-really-free-antivirus-for-windows/), u.a. [**Panda** Free Antivirus](https://www.pandasecurity.com/security-promotion/?reg=DE&campaign=free2007C) \[**choco install pandafreeantivirus**\] und **[Bitdefender](https://www.bitdefender.com/consumer/free-antivirus)** \[**choco install bitdefenderavfree**\]
+- Hardening Microsoft Windows
 	- **[0patch](https://0patch.com)** \[choco install 0patch\]: micropatches to fix software vulnerabilities in various, even closed source products
 	- **[HardeningKitty](https://github.com/0x6d69636b/windows_hardening/)**: supports guidelines from Microsoft, CIS Benchmarks, DoD STIG and BSI SiSyPHuS Win10
 	- **[hardentools](https://github.com/securitywithoutborders/hardentools)** \[**choco install hardentools**\]: collection of simple utilities designed to disable a number of "features" exposed by Microsoft Windows
 	- [Windows-Optimize-Harden-Debloat Script](https://simeononsecurity.com/github/windows-optimize-harden-debloat/) \[**iwr -useb 'https://simeononsecurity.com/scripts/windowsoptimizeandharden.ps1'|iex**\]
-	- Firefox: [FireFox-Privacy-Script](https://github.com/simeononsecurity/FireFox-Privacy-Script), [FireFox-STIG-Script](https://github.com/simeononsecurity/FireFox-STIG-Script), [ffprofile](https://ffprofile.com/), [privacytools.io](https://www.privacytools.io/browsers/#about_config), [SimeonOnSecurity: Plugin Recommendations](https://simeononsecurity.ch/recommendations/browser_plugins/)
+- Hardening Browsers
+	- Browser-Überblick: [lmgtfy](https://www.google.com/search?q=security+assessment+chrome+opera+firefox+safari+edge) / [chatbot](https://www.perplexity.ai/search/new?q=security+assessment+chrome+opera+firefox+safari+edge)
+	- Chrome: [Brave](https://brave.com/) verwenden
+		- Manuelles Hardening: [Mini-Guide](https://discuss.privacyguides.net/t/hardening-google-chrome/20266)
+		- Nennenswerte Extensions: Bitdefender [TrafficLight](https://chromewebstore.google.com/detail/trafficlight/cfnpidifppmenkapgihekkeednfoenal), [uvm.](https://www.perplexity.ai/search/new?q=best+hardening+chrome+extensions)
+	- Opera:
+		- Manuelles Hardening: [Guide](https://fingerprint.com/blog/opera-privacy-security-guide/)
+		- Nennenswerte Extensions: Bitdefender [TrafficLight](https://chromewebstore.google.com/detail/trafficlight/cfnpidifppmenkapgihekkeednfoenal), [uvm.](https://www.perplexity.ai/search/new?q=best+hardening+opera+extensions)
+	- Firefox: [LibreWolf](https://librewolf.net/) oder [Mullvad](https://github.com/mullvad/mullvad-browser) verwenden
+		- Manuelles Hardening: [FireFox-Privacy-Script](https://github.com/simeononsecurity/FireFox-Privacy-Script), [FireFox-STIG-Script](https://github.com/simeononsecurity/FireFox-STIG-Script), [ffprofile](https://ffprofile.com/), [privacytools.io](https://www.privacytools.io/browsers/#about_config), [SimeonOnSecurity: Plugin Recommendations](https://simeononsecurity.ch/recommendations/browser_plugins/)
+- Hardening Mail User Agents
+	- Thunderbird: [Betterbird](https://www.betterbird.eu/) verwenden
+		- Manuelles Hardening: [HorlogeSkynet Thunderbird user.js](https://github.com/HorlogeSkynet/thunderbird-user.js)
+		- Nennenswerte Thunderbird Extensions: [etliche](https://www.perplexity.ai/search/new?q=best+hardening+thunderbird+extensions)
 - **[Portmaster](https://safing.io/download/)** \[**choco install portmaster**\]: open-source application that puts you back in charge over all your computer's network connections
 - **PGP** / GnuPG? **[gpg4win](https://www.gpg4win.org/)** \[**choco install gpg4win**\], v.a. [Kleopatra](https://apps.kde.org/de/kleopatra/) sowie [GnuPG](https://gnupg.org/), [GpgEX](https://www.openhub.net/p/gpgex), [GPA](https://www.gnupg.org/related_software/gpa/index.html), [GpgOL](https://gpg4win.org/doc/en/gpg4win-compendium_33.html)
 	- E-Mail Encryption: [openpgp.org Übersicht](https://www.openpgp.org/software/)
@@ -740,7 +786,7 @@ Datenexploration und Visualisierung:
 		- Juristisch: [Privacy ReClaim](https://www.privacyreclaim.com/)
 		- Abo: (€) [Mine](https://www.saymine.com/mineapp)
 		- Anti-Data-Broker (€): **[Incogni](https://incogni.com/)** ⭐, [DeleteMe](https://joindeleteme.com/), [IDX Consumer Protection](https://www.idx.us/privacy-identity-protection) (iOS-only: [Kanary](https://www.thekanary.com/))
-- Windows Prisvacy Hardening
+- Windows Privacy Hardening
 	- **[WPD](https://wpd.app/)**: Windows Privacy Dashboard ⭐ \[choco install wpd\], einfache Deaktivierung der Windows-Telemetrie, Verwendende Level "Standard"
 	- **[toptout](https://github.com/beatcracker/toptout)**: Anti-Telemetry für eine Unzahl an Applikationen und Diensten, jenseits von Windows-per-se
 		```powershell
@@ -761,6 +807,17 @@ Datenexploration und Visualisierung:
 		- Router: **[eBlocker](https://eblocker.org/)**
 		- DNS: siehe folgenden Abschnitt DNS » Anti-Ads/Trackers
 	- **[Tor Browser](https://www.torproject.org/download/)** \[**choco install tor-browser**\]: explore the internet with privacy
+- Browser Privacy Protection:
+	- Alternative Browser verwenden (Privacy korreliert hierbei mit Security, aber nicht völlig deckungsgleich)
+		- Chrome → [Brave](https://brave.com/) oder [DuckDuckGo Browser](https://duckduckgo.com/windows)
+		- Opera → [Vivaldi](https://vivaldi.com/)
+		- Firefox → [LibreWolf](https://librewolf.net/) oder [Mullvad](https://github.com/mullvad/mullvad-browser)
+		- Mobile: [Brave](https://laptop-updates.brave.com/download/android/BRV010?bitness=64) | [DuckDuckGo](https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android) | [Startpage](https://app.startpage.com/)
+	- Incognito-Zweitbrowser:
+		- Desktop: [Anleitung](https://www.perplexity.ai/search/new?q=How+to+start+browsers+in+Incognito+mode+from+the+beginning%3F)
+		- Mobile: [Firefox Klar](https://play.google.com/store/apps/details?id=org.mozilla.klar)
+	- Nennenswerte Privacy Extensions: [Click&Clean](https://chromewebstore.google.com/detail/clickclean/ghgabhipcejejjmhhchfonmamedcbeod), [uvm.](https://www.perplexity.ai/search/new?q=best+privacy+browser+extensions)
+		- (Nennenswerte Security Browser Extensions sind oben aufgeführt! Hier Privacy-Fokus und wenig Korrelation mit Security)
 - DNS: Orthogonale Aspekte 1) Verschlüsseltes DNS, 2) No-Logging und 3) Anti-Ads/Trackers
 	- Performance-Kontrolle: [DNSPerf](https://www.dnsperf.com/#!dns-resolvers)
 	- Verschlüsseltes DNS:
@@ -776,7 +833,7 @@ Datenexploration und Visualisierung:
 	- Nennenswert: Mit einem "keine Daten verkaufen" Privacy Statement
 		- **[Cloudflare](https://1.1.1.1/de/)**: extrem hohe Geschwindigkeit; aber trotzdem aus Privacy-Sicht fragwürdig: Obacht vor Anforderungen der US-Administration
 - Dienst-Alternativen:
-	- Google Search » **[MetaGer](https://metager.org)**
+	- Google Search » **[Startpage](https://www.startpage.com/)** (€: **[MetaGer](https://metager.org)** inkl. [Hintergründe](https://suma-ev.de/eine-aera-geht-zu-ende/))
 	- YouTube » **[Invidious](https://invidious.io/)**, [PeerTube](https://joinpeertube.org/), [Odysee](https://odysee.com/)
 	- Twitter/𝕏 » **[Nitter](https://nitter.net/)**, [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/)
 	- Reddit » **[Teddit](https://teddit.net/)**, [Lemmy](https://github.com/LemmyNet/lemmy)
