@@ -478,13 +478,13 @@ Datenexploration und Visualisierung:
 - **HashiCorp** Stack:
 	- **[Vagrant](https://www.vagrantup.com/)** «Build&Test» \[**choco install vagrant**\] & **[Vagrant Cloud Box](https://app.vagrantup.com/boxes/search)**
 	- **[Packer](https://www.packer.io/)** «Package» \[**choco install packer**\]
-	- **[TerraForm](https://www.terraform.io/)** «Unified Provision» \[choco **install terraform**\]
+	- **[TerraForm](https://www.terraform.io/)** «Unified Provision» \[choco **install terraform**\] (früher OSS, jetzt nicht mehr! Daher nunmehr OpenTofu verwenden! s. unten)
 	- **[Vault](https://www.vaultproject.io/)** «Secure» \[**choco install vault**\]
 	- **[Consul](https://www.consul.io/)** «Connect&Maintain» & **[Consul Tools](https://www.consul.io/docs/download-tools)**
 	- **[Nomad](https://www.nomadproject.io/)** «Orchestrate&Run» \[**choco install nomad**\]
 	- **[Waypoint](https://www.waypointproject.io/)** «Unified Deploy»
 - Open-Source-Alternativen für HashiCorp:
-	- **[OpenTofu](https://opentofu.org/)**: drop-in replacement for Terraform
+	- **[OpenTofu](https://opentofu.org/)**: Open Source fork und drop-in replacement for Terraform
 - **[Resilience4j](https://github.com/resilience4j/resilience4j)**: lightweight fault tolerance library inspired by Netflix Hystrix
 - Software-Artifact Repository \[Cloud\]:
 	- [JFrog **Artifactory**](https://jfrog.com/artifactory/) (free: 2GB, 5 Users): 
