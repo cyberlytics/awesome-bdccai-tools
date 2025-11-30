@@ -73,6 +73,14 @@ Hinweise:
 - Volltextsuche
 	- **[Elastic](https://www.elastic.co/)** bzw. ELK-Stack \[via **[Docker](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)** oder **choco install elasticsearch** sowie **choco install kibana**\]: im Kern eine verteilte Volltext-Suchmaschine, basierend auf Lucene; aber auch als skalierbares NoSQL-System verwendbar
 	- **[typesense](https://typesense.org)**: Typo-tolerante Suchmaschine, optimiert für niedrige Latenzzeiten und hohe Suchleistung
+- Vektordatenbanksysteme / Vector Databases:
+	- Open Source: **[Milvus](https://milvus.io/)** \[**pip install -U pymilvus**\], [ChromaDB](https://github.com/chroma-core/chroma) \[pip install chromadb\], ...
+	- (€€€:) [KDB](https://kx.com/products/kdb-ai/), [Pinecone](https://www.pinecone.io/), ...
+	- Cloud: [AWS MemoryDB](https://aws.amazon.com/memorydb/), ...
+	- Multi-Modal:
+		- Open Source: [LanceDB](https://github.com/lancedb/lancedb) \[pip install lancedb\]
+		- Cloud: [LanceDB Cloud](https://lancedb.com/)
+	- Weiterführende Quellen: [db-engines](https://db-engines.com/en/ranking/vector+dbms)
 - Klassische Open-Source RDBMS:
 	- **[MySQL](https://www.mysql.com/)** \[**choco install mysql** sowie **choco install mysql.workbench**\], mit Default Port 3306
 	- **[MariaDB](https://mariadb.org/)** \[**docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=geheim mariadb:latest**\] sowie [Maria **Galera**](https://mariadb.com/kb/en/galera-cluster/) = Multi-Master-Cluster
