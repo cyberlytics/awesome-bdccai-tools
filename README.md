@@ -44,18 +44,9 @@ Hinweise:
 - [Edge / Fog / IoT](#edge--fog--iot)
 - [dApps](#dapps)
 - [Security](#security)
-  - [Professional Security](#professional-security)
-  - [LLM-Security](#llm-security)
-  - [Personal Security](#personal-security)
 - [Privacy](#privacy)
-  - [Professional Privacy](#professional-privacy)
-  - [Personal Privacy](#personal-privacy)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
 - [Footer](#footer)
-  - [Future Work](#future-work)
-  - [Contribute](#contribute)
-  - [Backers](#backers)
-  - [License](#license)
 
 <!-- tocstop -->
 
