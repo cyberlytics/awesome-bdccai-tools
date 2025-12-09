@@ -537,32 +537,31 @@ Datenexploration und Visualisierung:
 	- **[MindsDB](https://mindsdb.com/)**
 - ML-Extension to DBMS
 	- [**SQLFlow**.org](https://sql-machine-learning.GitHub.io/)
-- LLMs
+- LLMs im Selberbau:
 	- Modelle:
 		- Open Source: Webartikel [6 Best **Open-Source LLMs** to Watch Out For in 2024](https://www.techopedia.com/6-best-open-source-llms-to-watch-out-for-in-2024)
-	- Dev:
+	- Lokale LLMs / Offline (GUI) bzw. LAN-fähige Backends:
+		- **[Msty](https://msty.app/)** ⭐
+		- **[Witsy](https://witsyai.com/)** \[**choco install witsy**\]
+		- [**Jan**.ai](https://jan.ai/download) (OpenAI-equivalent API at https://localhost:1337)
+		- **[LM Studio](https://lmstudio.ai/)** \[**choco install lm-studio**\]
+		- [OpenLLM](https://github.com/bentoml/OpenLLM) (pip install openllm; chat UI at http://localhost:3000/chat)
+	- Lokale LLMs / Self-Hosting (WebUI) bzw. Cloud-fähige Backends:
+		- [LibreChat](https://www.librechat.ai/): [Docker-Compose-fähig](https://www.librechat.ai/docs/local/docker) sowie [local source code](https://www.librechat.ai/docs/local/npm) (via npm)
+		- [dify](https://github.com/langgenius/dify): [Docker-Compose-fähig](https://docs.dify.ai/en/self-host/quick-start/docker-compose) sowie [local source code](https://docs.dify.ai/en/self-host/advanced-deployments/local-source-code) (via uv and npm)
+		- [Open WebUI](https://github.com/open-webui/open-webui): [Docker-fähig](https://docs.openwebui.com/getting-started/quick-start/)
+		- [Xorbits Inference](https://github.com/xorbitsai/inference) ([OpenAI-equivalent API](https://inference.readthedocs.io/en/stable/user_guide/client_api.html) at http://localhost:9997/v1)
+		- [uvm.](https://www.perplexity.ai/search/new?q=welche+web-basierte+alternativen+gibt+es+zu+LibreChat)
+	- Dev Libs/Frameworks:
 		- Java: **[Spring AI](https://docs.spring.io/spring-ai/reference/)**, **[LongChain4j](https://github.com/langchain4j/langchain4j)**
-	- Chatbots: [**perplexity**.ai](https://www.perplexity.ai/) (mit „Focus: Academic“)
-		- Alternativen: OpenAI [ChatGPT](https://openai.com/blog/chatgpt/), [HuggingChat](https://huggingface.co/chat/), [Andi](https://andisearch.com), Microsoft [Bing](https://bing.com/new), Google [Bard](https://bard.google.com/)
-	- AI-enabled Browser: Perplexity [Comet](https://comet.perplexity.ai/), [Sigma](https://www.sigmabrowser.com/), [Fellou](https://fellou.ai/), Arc [Max](https://arc.net/max), Opera [Aria](https://www.opera.com/de/features/aria), Microsoft Edge+Copilot
-		- Mac-only: [Dia](https://www.diabrowser.com/)
-	- Multi-modale KI: Google **[Gemini](https://deepmind.google/technologies/gemini/)**
-	- Lokale LLMs / Offline:
-		* **[Msty](https://msty.app/)** ⭐
-		* **[Witsy](https://witsyai.com/)** \[**choco install witsy**\]
-		* **[Xorbits Inference](https://github.com/xorbitsai/inference)** ([OpenAI-equivalent API](https://inference.readthedocs.io/en/stable/user_guide/client_api.html) at http://localhost:9997/v1)
-		* [**Jan**.ai](https://jan.ai/download) (OpenAI-equivalent API at https://localhost:1337)
-		* **[LM Studio](https://lmstudio.ai/)** \[**choco install lm-studio**\]
-		* **[Open WebUI](https://github.com/open-webui/open-webui)**
-		* [OpenLLM](https://github.com/bentoml/OpenLLM) (pip install openllm; chat UI at http://localhost:3000/chat)
-	- Lokales Text-to-Image:
-		- AUTOMATIC1111 [stable-diffusin-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-		- [Fooocus](https://github.com/lllyasviel/Fooocus)
-		- [CompyUI](https://github.com/comfyanonymous/ComfyUI) ([Tutorial](https://stable-diffusion-art.com/comfyui/))
 	- IT-Security for LLMs:
 		- Hintergrundwissen: [OWASP Top-10 for LLMs](https://genai.owasp.org/llm-top-10/)
 		- [LLM Guard](https://github.com/jujumilk3/leaked-system-prompts)
 	- Weiterführende Quellen: [Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)
+- Lokales Text-to-Image:
+	- AUTOMATIC1111 [stable-diffusin-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+	- [Fooocus](https://github.com/lllyasviel/Fooocus)
+	- [CompyUI](https://github.com/comfyanonymous/ComfyUI) ([Tutorial](https://stable-diffusion-art.com/comfyui/))
 - ML-Plattformen
 	- Desktop/Self-Hosting:
 		- **[IBM Watson Studio Desktop](https://www.ibm.com/account/reg/de-de/signup?formid=urx-19947)**
