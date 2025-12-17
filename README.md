@@ -294,7 +294,8 @@ Datenexploration und Visualisierung:
 	- [AppGyver](https://www.appgyver.com/) / SAP **[Build Apps](https://www.sap.com/products/technology-platform/no-code-app-builder/get-started.html)** (Low-Code-Plattform; technisch losgelöst von OpenUI5/SAPUI5)
 - Spezial-Kontext WebAssembly:
 	- **[wasmtime](https://wasmtime.dev)**: fast and secure runtime for WebAssembly
-- Markdown Tools: vgl. [Awesome **Markdown**](https://github.com/mundimark/awesome-markdown)
+- Markdown Tools: vgl. [Awesome **Markdown**](https://github.com/mundimark/awesome-markdown) (Bonus: [Learn Markdown in 60 Seconds](https://commonmark.org/help/))
+	- [CommonMark Implementations](https://github.com/commonmark/commonmark-spec/wiki/List-of-CommonMark-Implementations)
 	- Fast Markdown Viewer (⭐) **[MarkText](https://github.com/marktext/marktext)** \[**choco install marktext.install**\] (als Editor nicht ganz so gut)
 	- Markdown Editor (⭐) **[Obsidian](https://obsidian.md/)** \[**choco install obsidian**\] (Verzeichnis als Vault öffnen…) sowie 
 		- Hilfreich: **[ObisdianShell](https://github.com/Chaoses-Ib/ObsidianShell)** (Associate Markdown files with Obsidian)
