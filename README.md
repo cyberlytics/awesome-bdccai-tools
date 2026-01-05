@@ -40,6 +40,7 @@ Hinweise:
 - [DevOps](#devops)
 - [Operations Research / Optimization](#operations-research--optimization)
 - [ML / AI](#ml--ai)
+- [MLOps](#mlops)
 - [Low-Code / No-Code](#low-code--no-code)
 - [Edge / Fog / IoT](#edge--fog--iot)
 - [dApps](#dapps)
@@ -564,16 +565,6 @@ Datenexploration und Visualisierung:
 			**[AWS ML](https://aws.amazon.com/de/free/machine-learning/)** und insb. **[AWS SageMaker](https://aws.amazon.com/de/sagemaker/pricing/)**, **[Azure ML](https://azure.microsoft.com/services/machine-learning/)**, [**Google** GCP AI & **ML**](https://cloud.google.com/products/ai), …
 		- **[ClearML](https://app.clear.ml/)**, wie oben bei Desktop bereits aufgeführt, auch mit einem Free-Tier-Angebot in der Cloud
 		- (€€€): **[Dataiku](https://www.dataiku.com/product/get-started/)**, u.a. [in Kombination mit Snowflake](https://www.dataiku.com/partners/snowflake/)
-- MLOps-bezogen:
-	- (Die ganzen ML-Frameworks wie AWS SageMaker, IBM Watson, ClearML, MLflow haben auch alle integrierte MLops-Funktionalitäten, …)
-	- [Iterative **Studio**](https://studio.iterative.ai/): Collaboration for Machine Learning Teams
-	- [Iterative](https://dvc.org/) **[DVC](https://dvc.org/)**: Open-source Version Control System for Machine Learning Projects
-	- **[Sacred](https://github.com/IDSIA/sacred)**: A tool to help you configure, organize, log and reproduce experiments
-	- [Apache **Marvin-AI**](https://marvin.apache.org/): Open-Source MLOps Plattform
-- LLMOps / LLM-Plattform / Agentic AI:
-	- **[Dify](https://dify.ai/)**: build, deploy, and manage AI-powered applications
-	- [Coze](https://www.coze.com/): build chatbots and automated virtual assistants
-	- Void, TabbyML, GitHub Copilot and Claude Code.
 - Text Processing
 	- [PyPDF2](https://pypi.org/project/PyPDF2/): convert simple, text-based PDF files into text readable by Python
 	- **[spaCy](https://spacy.io/)**: free, open-source library for advanced Natural Language Processing (NLP) in Python
@@ -591,7 +582,21 @@ Datenexploration und Visualisierung:
 - Industrielle Forschung
 	- Nennenswerte internationale **KI Labs**: **[OpenAI](https://en.wikipedia.org/wiki/OpenAI)** (z.B. [GTP-3](https://openai.com/blog/openai-api/), [DALL·E](https://openai.com/dall-e-2/), [ChatGPT](https://chat.openai.com/)), Alphabet **[DeepMind](https://en.wikipedia.org/wiki/DeepMind)** (z.B. [AlphaGo](https://www.deepmind.com/research/highlighted-research/alphago)), **[Google AI](https://www.ai.google/)** ([TensorFlow](https://www.tensorflow.org/), [LaMDA](https://blog.google/technology/ai/lamda/), [Imagen](https://imagen.research.google/)), Facebook Artificial Intelligence Research (FAIR) = **[Meta AI](https://www.wikiwand.com/en/Meta_AI)** (z.B. [PyTorch](https://pytorch.org/)), **[Tesla AI](https://www.tesla.com/AI)** (z.B. [autopilot](https://www.tesla.com/autopilot)), **[Ueber AI](http://uber.ai/)** (z.B. [Pyro](https://pyro.ai/))
 	- Nennenswerte kleine Labs (KI-Bildgeneratoren): [**stability**.ai](https://stability.ai/) ([Stable Diffusion](https://github.com/CompVis/stable-diffusion)), **[Midjourney](https://www.midjourney.com/)** ([Midjourney Bot](https://docs.midjourney.com/docs/midjourney-discord)), **[Craiyon](https://www.craiyon.com/)** (früher: DALL-E Mini), **[artbreeder](https://www.artbreeder.com/)**
-- Weiterführende Quellen: [Awesome AI](https://github.com/amusi/awesome-ai-awesomeness) | [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | [Awesome AI-ML-DL](https://github.com/neomatrix369/awesome-ai-ml-dl) | [MLOps.toys](https://mlops.toys/) | [Awesome MLOps](https://github.com/kelvins/awesome-mlops) (and [references](https://ml-ops.org/content/references.html)) | [Awesome Software Engineering for Machine Learning](https://github.com/SE-ML/awesome-seml)
+- Weiterführende Quellen: [Awesome AI](https://github.com/amusi/awesome-ai-awesomeness) | [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | [Awesome AI-ML-DL](https://github.com/neomatrix369/awesome-ai-ml-dl)
+
+## MLOps
+
+- MLOps:
+	- (Die ganzen ML-Frameworks wie AWS SageMaker, IBM Watson, ClearML, MLflow haben auch alle integrierte MLops-Funktionalitäten, …)
+	- [Iterative **Studio**](https://studio.iterative.ai/): Collaboration for Machine Learning Teams
+	- [Iterative](https://dvc.org/) **[DVC](https://dvc.org/)**: Open-source Version Control System for Machine Learning Projects
+	- **[Sacred](https://github.com/IDSIA/sacred)**: A tool to help you configure, organize, log and reproduce experiments
+	- [Apache **Marvin-AI**](https://marvin.apache.org/): Open-Source MLOps Plattform ⭐
+- LLMOps / LLM-Plattform / Agentic AI:
+	- **[Dify](https://dify.ai/)**: build, deploy, and manage AI-powered applications
+	- [Coze](https://www.coze.com/): build chatbots and automated virtual assistants
+	- Void, TabbyML, GitHub Copilot and Claude Code.
+- Weiterführende Quellen: [MLOps.toys](https://tools.mlops.community/) | [Awesome MLOps](https://github.com/kelvins/awesome-mlops) (and [references](https://ml-ops.org/content/references.html)) | [Awesome Software Engineering for Machine Learning](https://github.com/SE-ML/awesome-seml)
 
 ## Low-Code / No-Code
 
