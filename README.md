@@ -850,8 +850,8 @@ Datenexploration und Visualisierung:
 	- [**tosdr**.org](https://tosdr.org/): Terms of Service Didn't Read
 		- **[AGB Check-Tool](https://www.konsumentenschutz.ch/agb-check/)**: Prüfen Sie, ob Ihre AGB nachteilige Klauseln enthalten
 	- **[Privacy Policy Checker](https://gdprwise.eu/policy-checker/)**: Prüft eine Website-Datenschutzrichtlinie auf Übereinstimmung mit der GDPR-Verordnung
-- E-Mail Accounts (GMail-Exit/M365-Exit):
-	- Empfehlungen: **[Tutanota](https://tutanota.com/)** (aus Hannover, kostenlose 1GB), **[Proton](https://proton.me/mail)** (aus der Schweiz, kostenlose 1GB)
+- E-Mail Accounts ([GMail-Exit](https://www.perplexity.ai/search/new?q=Which+options+for+GMail-Exit%3F+Suggest+alternatives+like+Tutanota%2C+Proton%2C+Fastmail.)/M365-Exit):
+	- Empfehlungen: **[Tutanota](https://tutanota.com/)** (aus Hannover, kostenlose 1GB), **[Proton](https://proton.me/mail)** (aus der Schweiz, kostenlose 1GB), ggf. [FastMail](https://www.fastmail.com/) (aus Australien, kein kostenloser Dienst; Erfinder von [JMAP](https://jmap.io/software.html))
 		- Migration (kostenlos): Cloud-Dienst [OVH Mail Migrator](https://omm.ovh.net/)
 		- Migration (€): [imapsync](https://imapsync.lamiral.info/) als [CLI-Tool](https://github.com/imapsync/imapsync) oder als [Cloud-Dienst](https://imapsync.lamiral.info/X/)
 		- Backups (kostenlos): CLI [OfflineIMAP](https://github.com/OfflineIMAP/offlineimap3)
