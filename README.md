@@ -246,11 +246,12 @@ Datenexploration und Visualisierung:
 - Scalable **OLTP: [CockroachDB](https://www.cockroachlabs.com/product/)** \[via [Docker](https://www.cockroachlabs.com/docs/v22.1/install-cockroachdb-windows)\]: Open-Source NewSQL; **PostgreSQL**-compatible; built on a transactional and strongly-consistent key-value store
 	- Alternative: **[YugabyteDB](https://www.yugabyte.com/)** \[via [Docker](https://docs.yugabyte.com/preview/quick-start/docker/)\]: Open-source NewSQL; **PostgreSQL**-compatible
 - Scalable **HTAP:** [PingCAP **TiDB**](https://github.com/pingcap/tidb): \[via [Quick Start Guide](https://hub.docker.com/r/pingcap/tidb)\]: Open-source NewSQL (OLTP/HTAP workloads); **MySQL**-compatible; built on a transactional key-value store
-- λ/Lambda-Architektur (Nathan Marz) „**separate** batch vs. speed layer“: klassisch bspw. basierend auf [Apache **Hadoop**](https://hadoop.apache.org/) + [Apache **Storm**](https://storm.apache.org/)
+- λ/Lambda-Architektur (Nathan Marz, Initiator von Storm) „**separate** batch vs. speed layer“: klassisch bspw. basierend auf [Apache **Hadoop**](https://hadoop.apache.org/) + [Apache **Storm**](https://storm.apache.org/)
 	- vgl. auch [Twitter/𝕏 **Summingbird**](https://github.com/twitter/summingbird)
-- ϰ/Kappa-Architektur (Jay Kreps) „**unified** batch-&speed-layer“: bspw. basierend auf [Apache **Flink**](https://flink.apache.org/)
-	- (Flink hat seinen Urspruch in [Stratosphere](http://stratosphere.eu), einem Projekt dreier deutscher Hochschulen, u.a. von [Prof. Dr. Volker Markl](https://www.bifold.berlin/people/prof-dr-volker-markl.html))
-	- Kappa-Architekturen können auch basieren auf [**Kafka** Streams](https://kafka.apache.org/documentation/streams/), Spark Streaming, Kinesis Data Streams, etc. pp.
+- ϰ/Kappa-Architektur (Jay Kreps, Initiator von Kafka) „**unified** batch-&speed-layer“:
+	- Kappa-Architekturen können basieren auf [**Kafka** Streams](https://kafka.apache.org/documentation/streams/), Apache Flink, Spark Streaming, Kinesis Data Streams, etc. pp.
+	- Nennenswert: [Apache **Flink**](https://flink.apache.org/), wegen seinem besonders eingängigen unified batch-&speed-layer
+		- (Flink hat seinen Urspruch in [Stratosphere](http://stratosphere.eu), einem Projekt dreier deutscher Hochschulen, u.a. von [Prof. Dr. Volker Markl](https://www.bifold.berlin/people/prof-dr-volker-markl.html))
 - [Apache **Druid**](https://druid.apache.org/): Time Series Database; real-time (i.e., sub-second) analytics database, with separation of ingest compute and query compute
 	- Alternative: [**InfluxDB** Open Source](https://portal.influxdata.com/downloads/): Time Series Database; developed for operations monitoring and focuses on real-time (i.e., sub-second) analytics of IoT Data; core component of the [TICK stack](https://www.influxdata.com/time-series-platform/)
 - SIEM:
@@ -400,6 +401,7 @@ Datenexploration und Visualisierung:
 
 ## Cloud-Computing
 
+- **[Europäische Alternativen](https://european-alternatives.cloud/de)** ⭐
 - [Cloud Native Landscape](https://landscape.cncf.io)
 - Kostenlose Cloud Kontingente: [AWS Free Tier](https://aws.amazon.com/free/), [Azure Free Tier](https://azure.microsoft.com/pricing/free-services), [Google Cloud Free Tier](https://cloud.google.com/free/)
 	- Nur für Studierende: [Azure for Students](https://azure.microsoft.com/free/students/), [Heroku for Students](https://www.heroku.com/students), [MongoDB for Students](https://www.mongodb.com/students), GitHub Pages via [GitHub Student Developer Pack](https://education.github.com/pack)
