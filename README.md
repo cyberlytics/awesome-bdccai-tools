@@ -2,7 +2,7 @@
 [//]: # (Title: Awesome Big Data und Cloud-Computing für KI)
 [//]: # (Language: de-DE)
 [//]: # (Licence: CC BY 4.0)
-[//]: # (Kurztitel: Werkzeuge » BDCC/AI)
+[//]: # (Kurztitel: Werkzeuge » Big Data und Cloud Computing für AI)
 [//]: # (Lemma: tools-bdccai)
 
 # Awesome Big Data und Cloud-Computing für KI
