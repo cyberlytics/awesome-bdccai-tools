@@ -13,7 +13,7 @@
 [![Support on Ko‑fi](https://img.shields.io/badge/Donate-ko--fi-%23FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/cyberlytics)
 [![Buy Me A Coffee!](https://img.shields.io/badge/Donate-buymeacoffee-%23FFDD00?logo=buymeacoffee)](https://www.buymeacoffee.com/cyberpetaneuron)
 
-Beim titelgebenden „Big Data und Cloud-Computing für KI“ handelt es sich um mein Lehrgebiet. Dies ist eine reine Tool-Sammlung. Wenn Sie kostenlose Lernmaterialen suchen, dann sind diese Teil meiner Schwesterseite [Digitaler Ressourcen-Pool](https://github.com/cyberlytics/awesome-basics). Es gibt zusätzlich weitere Schwesterseiten von mir im Kontext Informatik/KI: [Werkzeuge » Abschlussarbeiten](https://github.com/cyberlytics/awesome-thesis-tools), [Werkzeuge » Software-Engineering](https://github.com/cyberlytics/awesome-software-engineering-tools) und [Agentic Engineering](https://github.com/cyberlytics/awesome-6GL).
+Beim titelgebenden „Big Data und Cloud-Computing für KI“ handelt es sich um mein Lehrgebiet. Dies ist eine reine Tool-Sammlung. Wenn Sie kostenlose Lernmaterialen suchen, dann sind diese Teil meiner Schwesterseite [Digitaler Ressourcen-Pool Informatik/KI](https://github.com/cyberlytics/awesome-basics). Es gibt zusätzlich weitere Schwesterseiten von mir im Kontext Informatik/KI: [Abschlussarbeiten Informatik/KI](https://github.com/cyberlytics/awesome-thesis-tools), [Werkzeuge » Software-Engineering](https://github.com/cyberlytics/awesome-software-engineering-tools) und [Agentic Engineering](https://github.com/cyberlytics/awesome-6GL).
 
 Hinweise:
 
