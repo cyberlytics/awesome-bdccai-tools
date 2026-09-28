@@ -753,7 +753,8 @@ Datenexploration und Visualisierung:
 	- **[IsLegitSite](https://www.islegitsite.com/)** oder **[ScamAdvisor](https://www.scamadviser.com/)**: Plausibilisieren Sie, ob eine Website legal ist oder ein Betrug, überprüfen Sie den Ruf der Website
 - Betriebssysteme
 	- Desktop: **[Qubes OS](https://www.qubes-os.org/)** / [HardenedBSD](https://hardenedbsd.org/content/easy-feature-comparison)
-	- Android: **[GrapheneOS](https://grapheneos.org/)**
+	- Android: **[GrapheneOS](https://grapheneos.org/)**, **[CalyxOS](https://calyxos.org/)**
+		- App-Stores: [F-Droid](https://f-droid.org/), [Aurora](https://auroraoss.com/) ([Aurora via F-Droid](https://f-droid.org/en/packages/com.aurora.store/))
 - Sandboxes:
 	- Mail Attachments: **[Dangerzone](https://dangerzone.rocks/)** (inspiriert von [Qubes OS trusted PDF](https://blog.invisiblethings.org/2013/02/21/converting-untrusted-pdfs-into-trusted.html))
 	- Generische Anwendungen: [**Sandboxie** Plus](https://github.com/sandboxie-plus/Sandboxie) \[**choco install sandboxie-plus.install**\], Microsoft **[Windows Sandbox](https://learn.microsoft.com/windows/security/threat-protection/windows-sandbox/windows-sandbox-overview)**, \[**Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online**\]
@@ -802,6 +803,7 @@ Datenexploration und Visualisierung:
 	- **[privacy.sexy](https://privacy.sexy/)** ⭐: per CMD-Script-Ausführung, Verwendende Level "Standard"
 		- Für Fortgeschrittene: **[W10Privacy](https://www.w10privacy.de/)** \[choco install w10privacy\]
 - Mobile Phone Privacy Hardening
+	- Checklists: Activist Checklist [Security Essentials](https://activistchecklist.org/essentials/), [Doxxing](https://activistchecklist.org/doxxing/)
 	- Android: [Techlore Video](https://www.youtube.com/watch?v=dMWEym0KPcA)
 		- To be considered: [GrapheneOS](https://grapheneos.org/), [CalyxOS](https://calyxos.org/)
 	- Apple: [The Ultimate iOS Hardening Guide](https://github.com/iAnonymous3000/iOS-Hardening-Guide) | [Techlore Video](https://www.youtube.com/watch?v=d2bJVKcIEg0)
@@ -840,6 +842,7 @@ Datenexploration und Visualisierung:
 		- **[Cloudflare](https://1.1.1.1/de/)**: extrem hohe Geschwindigkeit; aber trotzdem aus Privacy-Sicht fragwürdig: Obacht vor Anforderungen der US-Administration
 - Dienst-Alternativen:
 	- Google Search » **[Startpage](https://www.startpage.com/)** (€: **[MetaGer](https://metager.org)** inkl. [Hintergründe](https://suma-ev.de/eine-aera-geht-zu-ende/))
+	- Maps » **[Magic Earth](https://www.magicearth.com/)** (€: [Premium](https://www.magicearth.com/pricing))
 	- YouTube » **[Invidious](https://invidious.io/)**, [PeerTube](https://joinpeertube.org/), [Odysee](https://odysee.com/)
 	- Twitter/𝕏 » **[Nitter](https://nitter.net/)**, [Mastodon](https://joinmastodon.org/), [Misskey](https://misskey-hub.net/)
 	- Reddit » **[Teddit](https://teddit.net/)**, [Lemmy](https://github.com/LemmyNet/lemmy)
@@ -902,6 +905,8 @@ Contributions are most welcome, please adhere to the contribution guidelines and
 - New categories or improvements to the existing categorization are welcome.
 
 Thank you for your suggestions!
+
+BEWARE: Only contribute best-in-class software! Do NOT contribute fresh projects for promotion! (e.g., vibe coded ones) 
 
 ### Backers
 
