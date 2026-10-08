@@ -885,6 +885,12 @@ Datenexploration und Visualisierung:
 - [discount-for-student-dev](https://github.com/AchoArnold/discount-for-student-dev)
 - [A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students)
 
+## Schwesterseiten
+
+Wenn Sie kostenlose Lernmaterialen suchen, dann sind diese Teil meiner Schwesterseite [Digitaler Ressourcen-Pool Informatik/KI](https://github.com/cyberlytics/awesome-basics). Es gibt zusätzlich weitere Schwesterseiten von mir im Kontext Informatik/KI: [Abschlussarbeiten Informatik/KI](https://github.com/cyberlytics/awesome-thesis-tools), [Werkzeuge » Software-Engineering](https://github.com/cyberlytics/awesome-software-engineering-tools) und [Agentic Engineering](https://github.com/cyberlytics/awesome-6GL).
+
+Außerdem: [Schulische Vorbildung Informatik/KI](https://github.com/cyberlytics/awesome-cs-kids).
+
 ## Footer
 
 ### Future Work
