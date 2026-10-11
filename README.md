@@ -56,7 +56,7 @@ Hinweise:
 - **[EXASOL](https://www.exasol.com/product-overview/)**: In-Memory-basiertes MPP-fähiges ACID-konformes RDBMS für analytische Workloads
 	- Dialekt: Standardkonformes ISO SQL + hochgradig Oracle-kompatibel
 	- Als [Community Edition](https://www.exasol.com/en/download/community-edition-download/) kostenlos als VM Image für bis zu 200 GB Rohdaten, mit Default Port 8563
-	- Als [Docker Container](https://github.com/exasol/docker-db), allerdings derzeit nur unter Linux
+	- Als [Docker Container](https://github.com/exasol/docker-db), unter Windows oder Linux (oder [Exasol Personal auf macOS mit Apple silicon](https://docs.exasol.com/db/latest/get_started/quick_start_guide.htm))
 	- Exasol ist der langjährige Testsieger im [TPC-H Benchmark](https://www.tpc.org/tpch/results/tpch_last_ten_results5.asp) für DWH-Systeme (suite of business oriented ad-hoc decision support queries and concurrent data modifications)
 - **[DuckDB](https://duckdb.org/)**: “SQLite for analytics“ / In-Memory-basiertes In-Process-fähiges ACID-konformes RDBMS für analytische Workloads
 	- Dialekt: PostgreSQL
@@ -105,10 +105,12 @@ Hinweise:
 
 ## Datenbankwerkzeuge
 
-- **[Beekeeper](https://www.beekeeperstudio.io/)** \[**choco install beekeeper-studio.portable**\]: Advanced SQL Editor
+- SQL-Dialekt Transpiler
+	- **[SQLGlot](https://sqlglot.com)** ⭐ ([supported dialects](https://sqlglot.com/sqlglot.html#supported-dialects))
+- **[Beekeeper](https://www.beekeeperstudio.io/)** ⭐ \[**choco install beekeeper-studio.portable**\]: Advanced SQL Editor
 	- Alternativen: [**DBeaver** Community Edition](https://dbeaver.io/) \[**choco install dbeaver**\] mit [Open-Source Hintergrund](https://github.com/dbeaver/dbeaver), **[DbVisualizer](https://www.dbvis.com/pricing/)** \[**choco install db-visualizer**\], etc.
 - (€:) **[DataGrip](https://www.jetbrains.com/datagrip/)**, kostenlos über die [Free Educational Licenses](https://www.jetbrains.com/community/education/#students) für Studierende
-- **[DbGate](https://dbgate.org)** \[**choco install dbgate.portable**\]: Open-Source Cross-Plattform SQL Editor, inkl. NoSQL-Unterstützung und starkem JSON-Viewer
+- **[DbGate](https://dbgate.org)** ⭐ \[**choco install dbgate.portable**\]: Open-Source Cross-Plattform SQL Editor, inkl. NoSQL-Unterstützung und starkem JSON-Viewer
 - **[DbSchema](https://dbschema.com/)** [Community Edition](https://dbschema.com/): SQL Editor, Schema Reverse Engineering and Visualization
 	- (Pro Version: Schema Management and Database Change Management)
 - **[SchemaCrawler](https://www.schemacrawler.com/)** \[**choco install schemacrawler**\]: Open-Source Database Schema Discovery and Comprehension Tool; generates Schema Diagrams
@@ -131,7 +133,7 @@ Hinweise:
 	- «Empfehlung(€€€)» **[Collibra](https://www.collibra.com/)** (im Leader-Quadrant des Gartner [Magic Quadrant for Metadata Management Solutions](https://1.bp.blogspot.com/-kzKwIT9505s/W3LU5bmJl-I/AAAAAAAAD0o/YIfEOTIEo18MolX569Dw6U7RDof4JVlawCLcBGAs/s1600/GartenerMetadata.png) 2018)
 	- Forschungsdatenmanagement? vgl. Schwesterseite [Dozenten-Werkzeuge](https://www.oth-aw.de/neumann/tools-faculty/#forschungsdatenmanagement)
 - Data Lineage
-	- Gudusoft **[SQLFlow](https://sqlflow.gudusoft.com/#/)**: SQL Visualisierung ein oder mehrerer SQL Befehle, kostenlos, in der Cloud
+	- Gudusoft **[SQLFlow](https://sqlflow.gudusoft.com/)** ⭐: SQL Visualisierung ein oder mehrerer SQL Befehle, kostenlos, in der Cloud
 	- «Open Source» vgl. [Artikel von Atlan](https://atlan.com/open-source-data-lineage-tools/) (Kandidaten: Tokern, Egeria, Pachyderm, OpenLineage, TrueDat)
 	- Nennenswert: Wird auch von **[Collibra](https://www.collibra.com/)** abgedeckt (Data Lineage fällt aus Sicht von Gartner in den [Magic Quadrant for Data Quality Solutions](https://www.datactics.com/wp-content/uploads/2022/11/figure1.png), Collibra ist ggf. hier nicht Best-in-Class aber wegen Collibras Überlappung mit DQ und MDM attraktiv)
 - **[CleverCSV](https://github.com/alan-turing-institute/CleverCSV)**: Generiere Python-Code für CSV-Imports, zzgl. Bibliotheksfunktionen für Data Cleaning
@@ -150,7 +152,7 @@ Hinweise:
 Datenexploration und Visualisierung:
 
 - BI Tools / Dashboarding-Werkzeuge
-	- **[Tableau](https://www.tableau.com/products/desktop)** \[**choco install tableau-desktop**\]
+	- **[Tableau](https://www.tableau.com/products/desktop)** ⭐ \[**choco install tableau-desktop**\]
 		- Tableau ist [kostenlos für Studierende](https://www.tableau.com/academic/students)
 	- Microsoft **[PowerBI](https://app.powerbi.com)** (für Studierende ggf. Teil von kostenlosen Software-Bundles)
 	- Google [Looker](https://cloud.google.com/looker)
