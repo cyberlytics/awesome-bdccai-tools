@@ -47,6 +47,7 @@ Hinweise:
 - [Security](#security)
 - [Privacy](#privacy)
 - [Appendix: More Free Student Stuff](#appendix-more-free-student-stuff)
+- [Schwesterseiten](#schwesterseiten)
 - [Footer](#footer)
 
 <!-- tocstop -->
